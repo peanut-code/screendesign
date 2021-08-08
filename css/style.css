@@ -1,0 +1,70 @@
+.col-12{
+    margin: unset;
+    
+}
+
+.col-8{
+    padding: unset;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+h3{
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: underline;
+    font-size: bold;
+}
+a:link {
+    text-decoration: underline;
+    font-size: bold;
+  }
+  
+  /* visited link */
+  a:visited {
+    text-decoration: underline;
+    font-size: bold;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    text-decoration: underline;
+    font-size: bold;
+  }
+  
+  /* selected link */
+  a:active {
+    text-decoration: underline;
+    font-size: bold;
+  }
+
+.squareimage{
+    position: relative;
+    color: brown;
+    padding: unset;
+    margin-bottom: 80px;
+}
+
+.squareimage img {
+    display: block;
+}
+
+.textwhite{
+    background-color: rgba(255,255,255,0.6);
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+
+@media (max-width: 375px) {
+    .squareimage{
+        margin-bottom: 40px;
+    }
+}
+
