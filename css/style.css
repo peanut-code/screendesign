@@ -23,6 +23,11 @@ a:link {
     text-decoration: underline;
     font-size: bold;
   }
+
+.muster{
+    font-style: italic;
+    font-size: small;
+}
   
   /* visited link */
   a:visited {
