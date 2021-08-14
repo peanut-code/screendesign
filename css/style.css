@@ -28,6 +28,10 @@ a:link {
     font-style: italic;
     font-size: small;
 }
+a[aria-disabled=true]:hover {
+    /*color: rgba(255,255,255,.5);*/
+    color: red;
+}
   
   /* visited link */
   a:visited {

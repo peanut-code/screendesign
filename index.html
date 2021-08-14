@@ -8,8 +8,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css/main.css" />
-  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Café Rakete</title>
+  <meta name="description" content="Die Startseite unseres Cafés Rakete">
+
 </head>
 
 <body>
@@ -20,7 +22,7 @@
       <a class="navbar-brand" href="#">LOGO</a>
 
       <!-- Burger Menu Button -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <button class="navbar-toggler" type="button" title="burger-menu-button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -29,25 +31,25 @@
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link disabled" aria-current="page" href="#" aria-disabled="true">Home</a>
+            <a class="nav-link" aria-current="page"  aria-disabled="true">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./html/fruehstueck.htm" aria-disabled="true" tabindex="1">Frühstück</a>
+            <a class="nav-link" href="./html/fruehstueck.htm"  tabindex="1">Frühstück</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./html/ueberuns.html" aria-disabled="true" tabindex="2">Über uns</a>
+            <a class="nav-link" href="./html/ueberuns.html" tabindex="2">Über uns</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="./html/veranstaltungen.html" id="navbardrop" aria-disabled="true"
+            <a class="nav-link dropdown-toggle" href="./html/veranstaltungen.html" id="navbardrop" 
               tabindex="3" data-toggle="dropdown">Veranstaltungen</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="./html/unterseite1.html" aria-disabled="true" tabindex="3">Drop 1</a>
-              <a class="dropdown-item" href="./html/unterseite2.html" aria-disabled="true" tabindex="4">Drop 2</a>
-              <a class="dropdown-item" href="./html/unterseite3.html" aria-disabled="true" tabindex="5">Drop 3</a>
+              <a class="dropdown-item" href="./html/unterseite1.html" tabindex="3">Drop 1</a>
+              <a class="dropdown-item" href="./html/unterseite2.html"  tabindex="4">Drop 2</a>
+              <a class="dropdown-item" href="./html/unterseite3.html"  tabindex="5">Drop 3</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./html/kontakt.html" aria-disabled="true" tabindex="6">Kontakt</a>
+            <a class="nav-link" href="./html/kontakt.html"  tabindex="6">Kontakt</a>
           </li>
         </ul>
       </div>
@@ -62,6 +64,20 @@
       Öffnungszeiten?
     </p>
   </div>
+
+  <div class="b-example-divider"></div>
+
 </body>
+<div class="container">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-muted" tabindex="0" >Home</a></li>
+      <li class="nav-item"><a href="./html/kontakt.html" class="nav-link px-2 text-muted" tabindex="0">Kontakt</a></li>
+      <li class="nav-item"><a href="./html/Datenschutz.html" class="nav-link px-2 text-muted" tabindex="0">Datenschutz</a></li>
+      <li class="nav-item"><a href="./html/Impressum.html" class="nav-link px-2 text-muted" tabindex="0">Impressum</a></li>
+    </ul>
+    <p class="text-center text-muted">LOGO</p>
+  </footer>
+</div>
 
 </html>
