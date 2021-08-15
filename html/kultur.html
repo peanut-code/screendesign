@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css" />
-    <title>Kunst und Kultur - Café Rakete</title>
-    <meta name="description" content="Alle anstehenden Veranstaltungen rund um Kunst und Kultur">
+    <title>Veranstaltungen - Café Rakete</title>
+    <meta name="description" content="Alle Informationen zu unserem vielftigen Veranstaltungsangebot">
 </head>
 
 <body>
@@ -18,7 +24,8 @@
         <!--Header-->
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <!--Logo-->
-            <a class="navbar-brand" href="../index.html"><img src="../images/Logo.png" alt="startseite" width="64px"></a>
+            <a class="navbar-brand" href="../index.html"><img src="../images/Logo.png" alt="startseite"
+                    width="64px"></a>
 
             <!-- Burger Menu Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" title="burger-menu-button"
@@ -43,8 +50,9 @@
                         <a class="nav-link dropdown-toggle" href="./veranstaltungen.html" id="navbardrop" tabindex="5"
                             data-toggle="dropdown">Veranstaltungen</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="./treff.html" tabindex="5">Treffen</a>
-                            <a class="dropdown-item" aria-current="page" aria-disabled="true" href="#">Kultur</a>
+                            <a class="dropdown-item" href="./treff.html" tabindex="5">Hobbytreff</a>
+                            <a class="dropdown-item" aria-current="page" aria-disabled="true" href="#">Kunst &
+                                Kultur</a>
                             <a class="dropdown-item" href="./hilfen.html" tabindex="6">Hilfen</a>
                         </div>
                     </li>
@@ -57,100 +65,118 @@
     </header>
     <main>
         <!-- Marketing messaging and featurettes
-  ================================================== -->
+    ================================================== -->
         <!-- Wrap the rest of the page in another container to center all the content. -->
-
+        <br>
         <div class="container">
 
             <!-- START THE FEATURETTES -->
-
-            <hr class="divider">
-
             <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">First featurette heading. <span class=" ">It’ll blow your
-                            mind.</span>
-                    </h2>
-                    <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting
-                        prose
-                        here.</p>
-                </div>
-                <div class="col-md-5">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+
+                <div class="col-sm-5 order-sm-1">
+                    <img class="featurette-image img-fluid mx-auto" width="300" height="300"
+                        src="../images/veranstaltungen/fejka2.jpg" role="img" aria-label="Fejká"
                         preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa"
-                            dy=".3em">500x500</text>
-                    </svg>
-
+                    <title>Placeholder</title>
+                    </img>
                 </div>
-            </div>
-
-            <hr class="divider">
-
-            <div class="row featurette">
-                <div class="col-md-7 order-md-2">
-                    <h2 class="featurette-heading">Oh yeah, it’s that good. <span class=" ">See for
-                            yourself.</span></h2>
+                <div class="col-sm-7 order-sm-2">
+                    <h2 class="featurette-heading">This is Fejká! <span class=" ">01.09.2021 in der Rakete.</span>
+                    </h2>
                     <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of
                         how this
                         layout would work with some actual real-world content in place.</p>
                 </div>
-                <div class="col-md-5 order-md-1">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa"
-                            dy=".3em">500x500</text>
-                    </svg>
-
-                </div>
             </div>
-
-            <hr class="divider">
-
+            <br>
             <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">And lastly, this one. <span class=" ">Checkmate.</span></h2>
-                    <p class="lead">And yes, this is the last block of representative placeholder content. Again, not
-                        really
-                        intended to be actually read, simply here to give you a better view of what this would look like
-                        with some
-                        actual content. Your content.</p>
-                </div>
-                <div class="col-md-5">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+                <div class="col-sm-5 order-sm-1">
+                    <img class="featurette-image img-fluid mx-auto" width="300" height="300"
+                        src="../images/veranstaltungen/scienceslam.jpg" role="img" aria-label="Fejká"
                         preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa"
-                            dy=".3em">500x500</text>
-                    </svg>
-
+                    <title>Placeholder</title>
+                    </img>
+                </div>
+                <div class="col-sm-7 order-sm-2">
+                    <h2 class="featurette-heading">Science Slam! <span class=" ">01.09.2021 in der Rakete.</span>
+                    </h2>
+                    <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of
+                        how this
+                        layout would work with some actual real-world content in place.</p>
                 </div>
             </div>
-
-            <hr class="divider">
+            <br>
+            <div class="row featurette">
+                <div class="col-sm-5 order-sm-1">
+                    <img class="featurette-image img-fluid mx-auto" width="300" height="300"
+                        src="../images/veranstaltungen/second.jpg" role="img"
+                        aria-label="Frau durchstöbert Second Hand Kleidung" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
+                    <title>Placeholder</title>
+                    </img>
+                </div>
+                <div class="col-sm-7 order-sm-2">
+                    <h2 class="featurette-heading">Second-Hand Café <span class=" ">01.09.2021 in der Rakete.</span>
+                    </h2>
+                    <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of
+                        how this
+                        layout would work with some actual real-world content in place.</p>
+                </div>
+            </div>
+            <br>
+            <div class="row featurette">
+                <div class="col-sm-5 order-sm-1">
+                    <img class="featurette-image img-fluid mx-auto" width="300" height="300"
+                        src="../images/veranstaltungen/fejka2.jpg" role="img" aria-label="Fejká"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    </img>
+                </div>
+                <div class="col-sm-7 order-sm-2">
+                    <h2 class="featurette-heading">This is Fejká! <span class=" ">01.09.2021 in der Rakete.</span>
+                    </h2>
+                    <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of
+                        how this
+                        layout would work with some actual real-world content in place.</p>
+                </div>
+            </div>
+            <br>
+            <div class="row featurette">
+                <div class="col-sm-5 order-sm-1">
+                    <img class="featurette-image img-fluid mx-auto" width="300" height="300"
+                        src="../images/veranstaltungen/fejka2.jpg" role="img" aria-label="Fejká"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    </img>
+                </div>
+                <div class="col-sm-7 order-sm-2">
+                    <h2 class="featurette-heading">This is Fejká! <span class=" ">01.09.2021 in der Rakete.</span>
+                    </h2>
+                    <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of
+                        how this
+                        layout would work with some actual real-world content in place.</p>
+                </div>
+            </div>
+            <br>
 
             <!-- /END THE FEATURETTES -->
 
         </div><!-- /.container -->
     </main>
 </body>
-<footer class="py-3 my-4 navbar-expand-sm  bg-dark navbar-dark">
+<footer class="py-3 my-4 navbar-expand-sm  bg-dark navbar-dark mb-0">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
         <li class="navbar-nav"><a href="../index.html" class="nav-link px-2 " tabindex="0">Home</a></li>
         <li class="navbar-nav"><a aria-current="page" href="./kontakt.html" class="nav-link px-2 "
-                tabindex="0">Kontakt</a></li>
+                tabindex="0">Kontakt</a>
+        </li>
         <li class="navbar-nav"><a href="./datenschutz.html" class="nav-link px-2 " tabindex="0">Datenschutz</a>
         </li>
         <li class="navbar-nav"><a href="./impressum.html" class="nav-link px-2 " tabindex="0">Impressum</a>
         </li>
     </ul>
-    <p class="text-center "><img
-                src="../images/Logo.png" alt="Logo Rakete" width="64px"></p>
+    <p class="text-center "><img src="../images/Logo.png" alt="Logo Rakete" width="128px"></p>
 
 </footer>
+
 </html>
