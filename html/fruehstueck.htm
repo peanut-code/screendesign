@@ -8,12 +8,17 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <link href="../css/style.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css" />
   <title>Frühstück - Café Rakete</title>
   <meta name="description" content="Hier finden Sie informationen über unsere verschienenen Frühsücksangebote">
 </head>
 
-<body>
+<body class="bg-dark">
   <header>
     <!--Header-->
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -54,169 +59,649 @@
         </ul>
       </div>
     </nav>
+    <br>
   </header>
+  <main>
+    <!--Seiteninhalt-->
+    <div class="container">
 
-  <!--Seiteninhalt-->
-  <div class="container">
-
-    <section class="row sm-col-12">
-      <div class="sm-col-2"></div>
-      <div class="sm-col-8">
-        <h1>Frühstück</h1>
-        <h2>Unsere Auswahl an Frühstück</h2>
-      </div>
-      <div class="col-2"></div>
-    </section>
-
-    <section class="row col-sm-12">
-      <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <!--Logo-->
-
-        <!-- Burger Menu Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-
-        <!--Links-->
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link " href="#gesundesFruehstueck" aria-disabled="true" tabindex="1">Gesundes Frühstück</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="" aria-disabled="true" aria-disabled="true" tabindex="2">Süßes Frühstück</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="" aria-disabled="true" tabindex="3">Herzhaftes Frühstück</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-    </section>
-    <section class="row col-sm-12 ">
-
-      <div class="col-sm-2"></div>
-      <div class="col-sm-8">
-
-        <h3 id="gesundesFruehstueck">Gesundes Frühstück</h3>
-
-      </div>
-  </div>
-  <div class="col-sm-2"></div>
-
-  </section>
-  <section class="row col-sm-12 ">
-
-
-    <div class="col-sm-2"></div>
-    <div class="col-sm-8">
-      <div class="row  col-sm-12">
-        <div class="col-sm-12 col-lg-5 squareimage ">
-          <h4 class="text-center textwhite">Gesundes Frühstück: Toast mit Avocado</h4>
-          <img src="../images/fruestueck_zugeschnitten/avocado-1137_853.jpg" class="img-fluid"
-            alt="Toast mit Avocado und Ei">
-        </div>
-        <div class="col-sm-2">
-        </div>
-
-        <div class="col-sm-12 col-lg-5 squareimage ">
-          <h4 class="text-center textwhite">Gesundes Frühstück: Brötchen mit Rohkost und Ei</h4>
-          <img src="../images/fruestueck_zugeschnitten/breakfast-1137_853.jpg" class="img-fluid"
-            alt="Teller mit Rohkost und Ei">
-
+      <div class="row col-12 m-0 text-white">
+        <div class="col-sm-8 m-0">
+          <h1>Karte</h1>
+          <h2>Unsere Auswahl an Essen</h2>
         </div>
       </div>
+
+      <section class="row col-sm-12 pr-0 m-0">
+        <nav class="navbar navbar-expand-sm navbar-light text-white bg-secondary ">
+          <!--Logo-->
+
+          <!-- Burger Menu Button -->
+          <button class="navbar-toggler" title="Burgermenü" type="button" data-toggle="collapse"
+            data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+
+          <!--Links-->
+          <div class="collapse navbar-collapse text-white">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#fruestueck" tabindex="1">Frühstück</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#suppen" tabindex="2">Suppen</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#hauptspeisen" tabindex="3">Hauptspeisen</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#salate" tabindex="3">Salate</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#snaks" tabindex="3">Snaks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#kuchen" tabindex="3">Kuchen</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#toertchen" tabindex="3">Törtchen</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </section>
+
+      <section class="col-sm-12">
+        <!--Text-Slider-Modul-->
+        <div class="row col-sm-12 m-0 bg-dark p-4 text-white">
+          <!--Text-->
+          <div class="row col-sm-8 m-0">
+            <h2 id="fruestueck" tabindex="0">Frühstück</h2>
+            <p>Wir haben verschiedene Frühstücksangebote zur Auswahl.<br>
+              Zu allen gibt es ein Heißgetränk nach Wahl.
+            </p>
+
+            <!--Tabelle-->
+            <div class="col-sm-4">
+              <table class="table text-white">
+                <tbody>
+                  <tr>
+                    <td>Süße Varianten</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-sm-4">
+              <table class="table text-white">
+                <tbody>
+                  <tr>
+                    <td>Herzhafte Varianten</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-sm-4">
+              <table class="table text-white">
+                <tbody>
+                  <tr>
+                    <td>Gesunde Varianten</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!--Tabelle Ende-->
+
+          </div>
+          <!--Text Ende-->
+          <!--Slider-->
+          <div class="col-sm-4">
+            <div id="carouselFruestueck" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" title="Slide 1" data-bs-target="#carouselFruestueck" data-bs-slide-to="0"
+                  class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" title="Slide 2" data-bs-target="#carouselFruestueck" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" title="Slide 3" data-bs-target="#carouselFruestueck" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+                  <button type="button" title="Slide 4" data-bs-target="#carouselFruestueck" data-bs-slide-to="3"
+                  aria-label="Slide 4"></button>
+                  <button type="button" title="Slide 5" data-bs-target="#carouselFruestueck" data-bs-slide-to="4"
+                  aria-label="Slide 5"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="../images/essen/fruestueck/croissants-569075_1920.jpg" class="d-block w-100"
+                    alt="Crossant mit Marmelade">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="../images/essen/fruestueck/waffles_zuge.jpg" class="d-block w-100" alt="Waffeln mit Obst">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/essen/fruestueck/pancakes-2291908_1280.jpg" class="d-block w-100"
+                    alt="Pancakes mit Sirup">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/essen/fruestueck/sandwich-2301387_1280.jpg" class="d-block w-100"
+                    alt="verschieden belegte Sandwiches">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/essen/fruestueck/fruit-2109043_1920.jpg" class="d-block w-100" alt="Obstteller">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselFruestueck"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-black" aria-hidden="true"></span>
+                <span class="visually-hidden whiteOnGrey bg-black">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselFruestueck"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-black" aria-hidden="true"></span>
+                <span class="visually-hidden whiteOnGrey bg-black">Next</span>
+              </button>
+            </div>
+          </div>
+          <!--Slider Ende-->
+        </div>
+        <!--Text-Slider-Modul Ende-->
+      </section>
+
+      <section class="col-sm-12">
+
+        <!--Slider-Text-Modul-->
+        <div class="row col-sm-12 m-0 bg-secondary text-white p-4 ">
+          <!--Slider-->
+          <div class="col-sm-4">
+            <div id="carouselSuppe" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" title="Slide 1" data-bs-target="#carouselSuppe" data-bs-slide-to="0"
+                  class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" title="Slide 2" data-bs-target="#carouselSuppe" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" title="Slide 3" data-bs-target="#carouselSuppe" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="../images/essen/suppe/pexels-max-griss-6693237.jpg" class="d-block w-100"
+                    alt="Maultaschensuppe">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="../images/essen/suppe/pexels-nataliya-vaitkevich-5605555.jpg" class="d-block w-100"
+                    alt="Kürbissuppe">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/essen/suppe/pexels-pixabay-262947.jpg" class="d-block w-100" alt="Tomatensuppe">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselSuppe" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-black" aria-hidden="true"></span>
+                <span class="visually-hidden whiteOnGrey bg-black">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselSuppe" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-black" aria-hidden="true"></span>
+                <span class="visually-hidden whiteOnGrey bg-black">Next</span>
+              </button>
+            </div>
+          </div>
+          <!--Slider Ende-->
+          <!--Text-->
+          <div class="row col-sm-8 m-0">
+            <h2 id="suppen" tabindex="0">Suppen</h2>
+            <p>Wir haben jeweils eine Tagessuppe zur Auswahl.<br>
+            </p>
+
+            <!--Tabelle-->
+            <div class="col-sm-6">
+              <table class="table text-white">
+                <tbody>
+                  <tr>
+                    <th scope="row">Montag</th>
+                    <td>Tomatensuppe</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Dienstag</th>
+                    <td>Flädlesuppe</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Mittwoch</th>
+                    <td>Kartoffelsuppe</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Donnerstag</th>
+                    <td>Maultaschensuppe</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-sm-6">
+              <table class="table text-white">
+                <tbody>
+                  <tr>
+                    <th scope="row">Freitag</th>
+                    <td>Zwiebelsuppe</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Samstag</th>
+                    <td>Kürbissuppe</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Sonntag</th>
+                    <td>Kriesklöslesuppe</td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+            <!--Ende Tabelle-->
+
+          </div>
+          <!--Text Ende-->
+        </div>
+        <!--Text-Slider-Modul Ende-->
+      </section>
+
+
+      <section class="col-sm-12">
+        <!--Text-Slider-Modul-->
+        <div class="row col-sm-12 m-0 bg-dark p-4 text-white">
+          <!--Text-->
+          <div class="row col-sm-8 m-0">
+            <h2 id="hauptspeisen" tabindex="0">Hauptspeisen</h2>
+            <p>Wir haben verschiedene Hauptspeisen für den Mittag und Abend.
+            </p>
+            <div class="col-sm-8">
+              <table class="table text-white">
+                <tbody>
+                  <tr>
+                    <td>Käsespätzle</td>
+                  </tr>
+                  <tr>
+                    <td>Maultaschen</td>
+                  </tr>
+                  <tr>
+                    <td>Curry</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!--Text Ende-->
+          <!--Slider-->
+          <div class="col-sm-4">
+            <div id="carouselHauptspeise" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" title="Slide 1" data-bs-target="#carouselHauptspeise" data-bs-slide-to="0"
+                  class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" title="Slide 2" data-bs-target="#carouselHauptspeise" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" title="Slide 3" data-bs-target="#carouselHauptspeise" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="../images/essen/mittagessen/cheese-noodles-174858_640.jpg" class="d-block w-100"
+                    alt="Käsespätzle mit Röstzwiebeln">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                <img src="../images/essen/mittagessen/soup-1581504_640.jpg" class="d-block w-100"
+                  alt="Curry">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../images/essen/mittagessen/german-ravioli-6201368_640.jpg" class="d-block w-100"
+                  alt="Maultaschen angebraten">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+             
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselHauptspeise"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-black" aria-hidden="true"></span>
+                <span class="visually-hidden whiteOnGrey bg-black">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselHauptspeise"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-black" aria-hidden="true"></span>
+                <span class="visually-hidden whiteOnGrey bg-black">Next</span>
+              </button>
+            </div>
+          </div>
+          <!--Slider Ende-->
+        </div>
+        <!--Text-Slider-Modul Ende-->
+      </section>
+
+      <section class="col-sm-12">
+        <!--Slider-Text-Modul-->
+        <div class="row col-sm-12 m-0 bg-secondary p-4 text-white">
+          <!--Slider-->
+          <div class="col-sm-4">
+            <div id="carouselSalate" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" title="Slide 1" data-bs-target="#carouselSalate" data-bs-slide-to="0"
+                  class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" title="Slide 2" data-bs-target="#carouselSalate" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" title="Slide 3" data-bs-target="#carouselSalate" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="../images/essen/salate/pexels-dana-tentis-1213710.jpg" class="d-block w-100"
+                    alt="Feldsalat mit Avocado, Oliven, Tomaten, dazu gibt es Brot">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="../images/essen/salate/pexels-anna-tis-6901202.jpg" class="d-block w-100"
+                    alt="Bowl mit Salat, Avocado, Oliven, Krautsalat, Spinat und Zuckerschoten">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/essen/salate/pexels-roman-odintsov-4869359.jpg" class="d-block w-100"
+                    alt="Grüner Salat mit Nüssen und Scharfskäse">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselSalate" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-black" aria-hidden="true"></span>
+                <span class="visually-hidden whiteOnGrey bg-black">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselSalate" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-black" aria-hidden="true"></span>
+                <span class="visually-hidden whiteOnGrey bg-black">Next</span>
+              </button>
+            </div>
+          </div>
+          <!--Slider Ende-->
+          <!--Text-->
+          <div class="row col-sm-8 m-0">
+            <h2 id="salate" tabindex="0">Salate</h2>
+            <p>Wir haben verschiedene Salate zur Auswahl.<br>
+              Beim Dressing kann zwischen dem Essig-Öl-Dressing, Joghurt-Dressing, Honig-Senf-Dressing gewählt werden.
+            </p>
+            <!--Tabelle-->
+            <div class="col-sm-4">
+              <table class="table text-white">
+                <tbody>
+                  <tr>
+                    <td>Grüner Salat in Varianten</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-sm-4">
+              <table class="table text-white">
+                <tbody>
+                  <tr>
+                    <td>Kartoffelsalat</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-sm-4">
+              <table class="table text-white">
+                <tbody>
+                  <tr>
+                    <td>Gesunde Varianten</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!--Tabelle Ende-->
+
+
+          </div>
+          <!--Text Ende-->
+        </div>
+        <!--Text-Slider-Modul Ende-->
+      </section>
+
+
+
+      <section class="col-sm-12">
+        <!--Text-Slider-Modul-->
+        <div class="row col-sm-12 m-0 bg-dark p-4 text-white">
+          <!--Text-->
+          <div class="row col-sm-8 m-0">
+            <h2 id="snaks" tabindex="0">Snaks</h2>
+            <p>Wir haben verschiedene Snaks zur Auswahl.<br>
+            </p>
+            <!--Tabelle-->
+            <div class="col-sm-4">
+              <table class="table text-white">
+                <tbody>
+                  <tr>
+                    <td>Herzhafte Törtchen</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-sm-4">
+              <table class="table text-white">
+                <tbody>
+                  <tr>
+                    <td>Butterbrezel</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-sm-4">
+              <table class="table text-white">
+                <tbody>
+                  <tr>
+                    <td>Sandwiches</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!--Tabelle Ende-->
+
+
+          </div>
+          <!--Text Ende-->
+          <!--Slider-->
+          <div class="col-sm-4">
+            <div id="carouselSnacks" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" title="Slide 1" data-bs-target="#carouselSnacks" data-bs-slide-to="0"
+                  class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" title="Slide 2" data-bs-target="#carouselSnacks" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="../images/essen/snak/pexels-mike-109836.jpg" class="d-block w-100"
+                    alt="kleine herzhafte Törtchen">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="../images/essen/fruestueck/sandwich-2301387_1280.jpg" class="d-block w-100"
+                    alt="verschieden belegte Sandwiches">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselSnacks" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-black" aria-hidden="true"></span>
+                <span class="visually-hidden whiteOnGrey bg-black">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselSnacks" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-black" aria-hidden="true"></span>
+                <span class="visually-hidden whiteOnGrey bg-black">Next</span>
+              </button>
+            </div>
+          </div>
+          <!--Slider Ende-->
+        </div>
+        <!--Text-Slider-Modul Ende-->
+      </section>
+
+      <section class="col-sm-12">
+        <!--Slider-Text-Modul-->
+        <div class="row col-sm-12 m-0 bg-secondary p-4 text-white">
+          <!--Slider-->
+          <div class="col-sm-4">
+            <div id="carouselKuchen" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" title="Slide 1" data-bs-target="#carouselKuchen" data-bs-slide-to="0"
+                  class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" title="Slide 2" data-bs-target="#carouselKuchen" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" title="Slide 3" data-bs-target="#carouselKuchen" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="../images/essen/kuchen/kuchen-5747125_640.jpg" class="d-block w-100"
+                    alt="Käsekuchen">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="../images/essen/kuchen/pexels-jasmine-lew-140831.jpg" class="d-block w-100"
+                    alt="Torte mit Kirschen">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item">
+            <img src="../images/essen/kuchen/cake-1284548_1920.jpg" class="d-block w-100"
+              alt="Cremetorte mit Obst">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselKuchen" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-black" aria-hidden="true"></span>
+                <span class="visually-hidden whiteOnGrey bg-black">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselKuchen" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-black" aria-hidden="true"></span>
+                <span class="visually-hidden whiteOnGrey bg-black">Next</span>
+              </button>
+            </div>
+          </div>
+          <!--Slider Ende-->
+          <!--Text-->
+          <div class="row col-sm-8 m-0">
+            <h2 id="kuchen" tabindex="0">Kuchen</h2>
+            <p>Wir haben verschiedene Kuchen und Torten für euch. Wenn ein ganzer Kuchen gekauft werden soll gerne im
+              Voraus bescheid sagen, dann haben wir ihn sicher da.
+            </p>
+          </div>
+          <!--Text Ende-->
+        </div>
+        <!--Text-Slider-Modul Ende-->
+      </section>
+
+      <section class="col-sm-12">
+        <!--Slider-Text-Modul-->
+        <div class="row col-sm-12 m-0 bg-dark p-4 text-white">
+          <!--Text-->
+          <div class="row col-sm-8 m-0">
+            <h2 id="toertchen" tabindex="0">Törtchen</h2>
+            <p>Wir haben verschiedene Törtchen für euch. Die Auswahl ist Wochenabhängig.
+            </p>
+          </div>
+          <!--Text Ende-->
+          <!--Slider-->
+          <div class="col-sm-4">
+            <div id="carouselToertchen" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" title="Slide 1" data-bs-target="#carouselToertchen" data-bs-slide-to="0"
+                  class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" title="Slide 2" data-bs-target="#carouselToertchen" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" title="Slide 3" data-bs-target="#carouselToertchen" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+                  <button type="button" title="Slide 4" data-bs-target="#carouselToertchen" data-bs-slide-to="3"
+                  aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="../images/essen/toertchen/pexels-nestor-cortez-1157835.jpg" class="d-block w-100"
+                    alt="Fruchttörtchen">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="../images/essen/toertchen/pexels-taryn-elliott-4099124.jpg" class="d-block w-100"
+                    alt="Cupcakes">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item">
+            <img src="../images/essen/toertchen/blueberry-1351603_640.jpg" class="d-block w-100"
+              alt="Blaubeertörtchen">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../images/essen/toertchen/torte-4097247_640.jpg" class="d-block w-100"
+              alt="Törtchen mit Obst">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselToertchen"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-black" aria-hidden="true"></span>
+                <span class="visually-hidden whiteOnGrey bg-black">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselToertchen"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-black" aria-hidden="true"></span>
+                <span class="visually-hidden whiteOnGrey bg-black">Next</span>
+              </button>
+            </div>
+          </div>
+          <!--Slider Ende-->
+
+        </div>
+        <!--Text-Slider-Modul Ende-->
+      </section>
+
     </div>
-    <div class="col-sm-2"></div>
-
-  </section>
-
-  <section class="row col-sm-12 ">
-
-    <div class="col-sm-2"></div>
-    <div class="col-sm-8">
-      <div class="row col-sm-12">
-        <div class="col-sm-12 col-lg-5 squareimage ">
-          <h4 class="text-center textwhite">Süßes Frühstück: Crossant, Marmelade, Orangensaft und ein Heißgetränk nach
-            Wahl</h4>
-          <img src="../images/fruestueck_zugeschnitten/breakfast-hotel-1137_853.jpg" class="img-fluid"
-            alt="Ein Frühstück mit zwei Crossants, schwarzem Kaffee, einem Apfel, Marmelade, Orangensaft und Orangenschnitzen">
-        </div>
-        <div class="col-sm-2">
-        </div>
-        <div class="col-sm-12 col-lg-5 squareimage">
-          <h4 class="text-center textwhite">Süßes Frühstück: zwei süße Stücke und ein Heißgetränk nach Wahl</h4>
-          <img src="../images/fruestueck_zugeschnitten/cinnamon-rolls-1137_853.jpg" class="img-fluid"
-            alt="Zwei Zimtschnecken">
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-2"></div>
-
-  </section>
-
-  <section class="row col-sm-12">
-
-    <div class="col-sm-2"></div>
-    <div class="col-sm-8">
-      <div class="row col-sm-12">
-        <div class="col-sm-12 col-lg-5 squareimage ">
-          <h4 class="text-center textwhite">Süßes Frühstück: warme Waffelm mit Früchten</h4>
-          <img src="../images/fruestueck_zugeschnitten/waffles-1207_905.jpg" class="img-fluid"
-            alt="Waffeln mit Bananenstückchen, Erdbeeren und Heidelbeeren">
-        </div>
-        <div class="col-sm-2">
-        </div>
-        <div class="col-sm-12 col-lg-5 squareimage">
-          <h4 class="text-center textwhite">Gesundes Frühstück: mit Obsteller</h4>
-          <img src="../images/fruestueck_zugeschnitten/fruit_1920_1440.jpg" class="img-fluid" alt="Obstteller">
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-2"></div>
-
-  </section>
-
-  <section class="row col-sm-12">
-
-    <div class="col-sm-2"></div>
-    <div class="col-sm-8">
-      <div class="row col-sm-12">
-        <div class="col-sm-12 col-lg-5 squareimage ">
-          <h4 class="text-center textwhite">Süßes Frühstück: Pancakes mit Ahormsirup und Früchten</h4>
-          <img src="../images/fruestueck_zugeschnitten/pancakes-1073_805.jpg" class="img-fluid"
-            alt="Ein Stapel Pancakes mit Ahornsirup und Himbeeren">
-        </div>
-        <div class="col-sm-2">
-        </div>
-        <div class="col-sm-12 col-lg-5 squareimage">
-          <h4 class="text-center textwhite">Herzhaftes Frühstück: Sandwiches verschieden belegt</h4>
-          <img src="../images/fruestueck_zugeschnitten/sandwich-1137_853.jpg" class="img-fluid"
-            alt="Sandwiches verschieden belegt">
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-2"></div>
-
-  </section>
-  </div>
-
+    <br>
+  </main>
 </body>
 
-  <footer class="py-3 my-4 navbar-expand-sm  bg-dark navbar-dark">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="navbar-nav"><a href="../index.html" class="nav-link px-2  " tabindex="0">Home</a></li>
-      <li class="navbar-nav"><a href="./kontakt.html" class="nav-link px-2  " tabindex="0">Kontakt</a></li>
-      <li class="navbar-nav"><a href="./datenschutz.html" class="nav-link px-2  "
-          tabindex="0">Datenschutz</a></li>
-      <li class="navbar-nav"><a href="./impressum.html" class="nav-link px-2  " tabindex="0">Impressum</a>
-      </li>
-    </ul>
-    <p class="text-center  "><img
-          src="../images/Logo.png" alt="Logo Rakete" width="64px"></p>
+<footer class="py-3 my-4 navbar-expand-sm  bg-dark navbar-dark mb-0">
+  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    <li class="navbar-nav"><a href="../index.html" class="nav-link px-2  " tabindex="0">Home</a></li>
+    <li class="navbar-nav"><a href="./kontakt.html" class="nav-link px-2  " tabindex="0">Kontakt</a></li>
+    <li class="navbar-nav"><a href="./datenschutz.html" class="nav-link px-2  " tabindex="0">Datenschutz</a></li>
+    <li class="navbar-nav"><a href="./impressum.html" class="nav-link px-2  " tabindex="0">Impressum</a>
+    </li>
+  </ul>
+  <p class="text-center"><img src="../images/Logo.png" alt="Logo Rakete" width="64px"></p>
 
-  </footer>
+</footer>
 
 </html>
