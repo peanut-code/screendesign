@@ -1,12 +1,3 @@
-.col-12 {
-  margin: unset;
-}
-
-.col-8 {
-  padding: unset;
-}
-
-
 h2 {
   margin-bottom: 20px;
 }
@@ -89,7 +80,20 @@ a:active {
 .whiteContrast{
     color: #767676;
 }
+.whiteOnGrey{
+  color: #fafbfc !important;
+}
 
+.whiteButtonColor{
+  color: #fefeff;
+}
+
+.errors{
+  color: darkred;
+}
+.sliderFallback{
+  background-color: black;
+}
 @media (max-width: 375px) {
   .squareimage {
     margin-bottom: 40px;
