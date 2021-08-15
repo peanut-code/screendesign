@@ -8,6 +8,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/style.css" />
   <title>Über uns - Café Rakete</title>
   <meta name="description" content="Hier findet Ihr alles wichtige über unsere Mitarbeiter und unser Café">
@@ -17,7 +22,7 @@
 <body>
   <header>
     <!--Header-->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark navbarUeberuns">
       <!--Logo-->
       <a class="navbar-brand" href="../index.html"><img src="../images/Logo.png" alt="Logo Rakete" width="64px"></a>
 
@@ -38,7 +43,7 @@
             <a class="nav-link" href="./fruehstueck.htm" tabindex="4">Frühstück</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link"  aria-current="page" aria-disabled="true" href="#">Über uns</a>
+            <a class="nav-link" aria-current="page" aria-disabled="true" href="#">Über uns</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="./veranstaltungen.html" id="navbardrop" tabindex="1"
@@ -55,29 +60,195 @@
         </ul>
       </div>
     </nav>
+    <br>
   </header>
+  <main>
+    <!--Seiteninhalt-->
+    <div class="container">
+      
+      
+      <!--Slider-->
+      <div class="row col-12">
+        <div class="col-8">
+          <h1 tabindex="0">Über uns</h1>
+          <h2 tabindex="0">Willkommen im Café Rakete</h2>
+          <p>Seit 7 Jahren begrüßen wir unsere Gäste neben dem Unigelände Vaihingen in Stuttgart. Ab 7h morgens gibt es
+            Werktags für die Early Birds den schnellen Espresso oder andere Kaffeespezialitäten um entspannt in den Tag
+            zu
+            starten. Das gesunde, das süße oder das herzahfte Frühstück laden zum verweilen ein. Ein Blick in die
+            Zeitung,
+            ein kurzes Gespräch mit Freunden, die relaxte Mittagspause zum Mittagstisch oder das kleine Bierchen,
+            Weinchen
+            oder Säftchen zum Feierabendtalk ... <br>
+            <br>
+            ... all das sind leckere und schöne Momente für einen guten Tag. <br>
+            <br>
+            Die Veranstaltungen und Treffen sind das Herzstück im unserem Café. Lerne neue Leute und Hobbies kennen!
+            Komm
+            und genieße die gewachsene Atmosphäre, die durch unsere Besucher mit ihren Gesprächen, Arbeiten, oder
+            konzentriertem Lernen erzeugt wird.<br>
+            <br>
+            Hast du auch keine Zeit dich zu beeilen? Oder willst du auf der Terasse neben dem lernen gemütlich einen
+            Cappuccino trinken? Hier findest du ein bisschen abwechslung zum Alltag
+          </p>
+        </div>
+        <div class="col-4">
 
-  <!--Seiteninhalt-->
-  <div class="container">
-    <h1>Über uns</h1>
-  </div>
+          <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" title="Slide 1" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" title="Slide 1" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" title="Slide 1" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="../images/Cafe/pexels-dmitry-zvolskiy-2199190.jpg" class="d-block w-100"
+                  alt="Bild unserer Räumlichkeiten, vorallem Bar und Kuchenangebot">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="../images/Cafe/pexels-maria-orlova-4913330.jpg" class="d-block w-100"
+                  alt="Bild unserer Räumlichkeiten, vorallem eine unserer Sitzecken">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../images/Cafe/pexels-meruyert-gonullu-6161518.jpg" class="d-block w-100"
+                  alt="Bild unserer Räumlichkeiten von draußen durch das Fenster fotografiert">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../images/kaffee/coffee-4334647_1920_1-1.jpg" class="d-block w-100"
+                  alt="Kaffee wird mit der Siebträgermaschiene aufgebrüht">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden whiteContrast">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden whiteContrast">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
 
-  <div class="b-example-divider"></div>
 
+        <hr class="divider">
+        <!--Trennlinie-->
+        <h2 tabindex="0">Unser Team</h2>
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="../images/bedienung_personal/pexels-andrea-piacquadio-3801649.jpg"
+              width="140" height="140" role="img" aria-label="Frau Caroline" alt="Frau Caroline"
+              preserveAspectRatio="xMidYMid slice" focusable="false">
+            </img>
+            <h3 tabindex="0">Caroline </h3>
+            <strong>Besitzerin</strong>
+            <p>Mir gehört das Café, darum findet man mich fast immer hier. Bei Fragen zu unseren Angeboten oder neuen
+              Ideen dürft ihr gerne auf mich zukommen. Ansonsten freu ich mich euch zu einem Kaffee oder einer unserer
+              Veranstaltungen zu begrüßen</p>
+          </div><!-- /.col-lg-4 -->
+
+          <div class="col-lg-4">
+            <img class="rounded-circle" width="140" height="140"
+              src="../images/bedienung_personal/pexels-tim-douglas-6205769.jpg" role="img" aria-label="Frau Marissa"
+              alt="Frau Marissa" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+            </img>
+            <h3 tabindex="0">Marissa </h3>
+            <strong>Mitarbeiter</strong>
+            <p>Hallo. Ich bin hier seit 5 Jahren Festangestellt. Ich bin an fünf Tagen in der Woche für euch da. Ich
+              empfehle euch besonders unser Frühsücksangebot und die verschiedenen Events und Treffen die hier
+              stattfinden.
+            </p>
+          </div><!-- /.col-lg-4 -->
+
+          <div class="col-lg-4">
+            <img class=" rounded-circle" width="140" height="140"
+              src="../images/bedienung_personal/pexels-tim-douglas-6205647.jpg" role="img" aria-label="Mann Milo"
+              alt="Mann Milo" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+            </img>
+            <h3 tabindex="0">Milo </h3>
+            <strong>Mitarbeiter</strong>
+            <p>Hallo und Willkommen in der Rakete. Wir haben den allerbesten Kaffee und ich bin euer benadeter Barista.
+              Also kommt und lasst euch mit einem guten Espresso verwöhnen.</p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+        <hr class="divider">
+
+         <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="../images/bedienung_personal/pexels-kampus-production-5920775.jpg"
+              width="140" height="140" role="img" aria-label="Mann Laurence" alt="Mann Laurence"
+              preserveAspectRatio="xMidYMid slice" focusable="false">
+            </img>
+            <h3 tabindex="0">Laurence </h3>
+            <strong>Teilzeit</strong>
+            <p>Hey. Ihr wollt euch mit Freunden zum Brunchen treffen oder einfach einen kleinen Energieschub? Dann seid
+              ihr bei uns genau richtig. Wir haben eine tolle Kaffee und Frühstücksauswahl.</p>
+          </div><!-- /.col-lg-4 -->
+
+          <div class="col-lg-4">
+            <img class="rounded-circle" width="140" height="140"
+              src="../images/bedienung_personal/pexels-ketut-subiyanto-4349857.jpg" role="img" aria-label="Frau Tara"
+              alt="Frau Tara" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+            </img>
+            <h3 tabindex="0">Tara </h3>
+            <strong>Aushilfe</strong>
+            <p>Hey ihr lieben. Ich arbeite neben meinem Studium als Teilzeit in dem Café Rakete. Habt ihr schon
+              geschaut,
+              ob bei unseren Treffen was für euch dabei ist? Meist treffen sich die Gruppen einmal die Woche zu festen
+              Uhrzeiten.
+            </p>
+          </div><!-- /.col-lg-4 -->
+
+          <div class="col-lg-4">
+            <img class=" rounded-circle" width="140" height="140"
+              src="../images/bedienung_personal/pexels-gary-barnes-6231987.jpg" role="img" aria-label="Mann Milo"
+              alt="Mann Milo" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+            </img>
+            <h3 tabindex="0">Lara </h3>
+            <strong>Aushilfe</strong>
+            <p>Hey. Ihr habt lust euch im Sommer zwischen dem lernen Lust auf eine Stück Kuchen? Dann kommt doch auf ein
+              Stück auf unsere Terasse vorbei.</p>
+
+          </div><!-- /.col-lg-4 -->
+
+        </div><!-- /.row -->
+
+        <br>
+      </div>
+  </main>
+  
 </body>
 
-  <footer class="py-3 my-4 navbar-expand-sm  bg-dark navbar-dark">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="navbar-nav"><a href="../index.html" class="nav-link px-2  " tabindex="0">Home</a></li>
-      <li class="navbar-nav"><a href="./kontakt.html" class="nav-link px-2  " tabindex="0">Kontakt</a></li>
-      <li class="navbar-nav"><a href="./datenschutz.html" class="nav-link px-2  "
-          tabindex="0">Datenschutz</a></li>
-      <li class="navbar-nav"><a href="./impressum.html" class="nav-link px-2  " tabindex="0">Impressum</a>
-      </li>
-    </ul>
-    <p class="text-center  "><a class="text-center  " href="../index.html"><img
-      src="../images/Logo.png" alt="Logo Rakete" width="64px"></a></p>
-  </footer>
+<footer class="py-3 my-4 navbar-expand-sm  bg-dark navbar-dark navbarUeberuns">
+  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    <li class="navbar-nav"><a href="../index.html" class="nav-link px-2  " tabindex="0">Home</a></li>
+    <li class="navbar-nav"><a href="./kontakt.html" class="nav-link px-2  " tabindex="0">Kontakt</a></li>
+    <li class="navbar-nav"><a href="./datenschutz.html" class="nav-link px-2  " tabindex="0">Datenschutz</a></li>
+    <li class="navbar-nav"><a href="./impressum.html" class="nav-link px-2  " tabindex="0">Impressum</a>
+    </li>
+  </ul>
+  <p class="text-center  "><a class="text-center  " href="../index.html"><img src="../images/Logo.png" alt="Logo Rakete"
+        width="64px"></a></p>
+</footer>
 
 
 </html>

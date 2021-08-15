@@ -7,6 +7,8 @@
     padding: unset;
 }
 
+
+
 h2{
     margin-bottom: 20px;
 }
@@ -75,9 +77,13 @@ a[aria-disabled=true]:hover {
     background-color: #0072ed;
 }
 
-/*Footer*/
+.navbarUeberuns {
+    background-color:  #343a40 !important;
+}
 
-
+.whiteContrast{
+    color: #767676;
+}
 
 @media (max-width: 375px) {
     .squareimage{
