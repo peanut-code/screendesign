@@ -18,10 +18,12 @@ h3{
 a {
     text-decoration: underline;
     font-size: bold;
+    color: #0072ed;
 }
 a:link {
     text-decoration: underline;
     font-size: bold;
+    color: #0072ed;
   }
 
 .muster{
@@ -68,6 +70,12 @@ a[aria-disabled=true]:hover {
     top: 0;
     width: 100%;
 }
+
+.btn-primary{
+    background-color: #0072ed;
+}
+
+/*Footer*/
 
 
 
