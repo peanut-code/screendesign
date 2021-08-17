@@ -101,6 +101,11 @@ a:active {
 .sliderbg{
   background-color: #3c3d3e;
 }
+ion-icon {
+  
+  color: white;
+  font-size: 30px;
+}
 
 @media (max-width: 375px) {
   .squareimage {
