@@ -61,115 +61,183 @@
     <br>
   </header>
   <main>
-    <h1>Veranstaltungen</h1>
-
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
-          aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="#777" />
-          </svg>
-          <div class="container">
-            <div class="carousel-caption text-start">
-              <h1>Example headline.</h1>
-              <p>Anstehende Veranstaltungen in der Rakete</p>
-              <p><a class="btn btn-lg btn-primary" href="#">mehr erfahren...</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="#777" />
-          </svg>
-
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Some representative placeholder content for the second slide of the carousel.</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="#777" />
-          </svg>
-
-          <div class="container">
-            <div class="carousel-caption text-end">
-              <h1>One more for good measure.</h1>
-              <p>Some representative placeholder content for the third slide of this carousel.</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <!-- Marketing messaging and featurettes
-  ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-    <hr class="divider">
-
     <div class="container">
-
-      <!-- Three columns of text below the carousel -->
+      <!--Text-Slider-Modul Ende-->
+      <h1>Finde Gleichgesinnte</h1>
+      <!--Slider-->
+      <div class="col-sm-12">
+        <div id="carouselHobbytreffen" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" title="Slide 1" data-bs-target="#carouselHobbytreffen" data-bs-slide-to="0"
+              class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" title="Slide 2" data-bs-target="#carouselHobbytreffen" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" title="Slide 3" data-bs-target="#carouselHobbytreffen" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" title="Slide 4" data-bs-target="#carouselHobbytreffen" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner" style="max-height: 40vh !important;">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="../images/veranstaltungen/esportsSlider.jpg" class="d-block w-100"
+                alt="Zwei Mitglieder der Fotoinitiative mit Kameras">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="../images/veranstaltungen/unterbelichtetSlider.jpeg" class="d-block w-100"
+                alt="Waffeln mit Obst">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../images/veranstaltungen/theaterSlider.jpg" class="d-block w-100" alt="Pancakes mit Sirup">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../images/veranstaltungen/skatecrewSlider.jpg" class="d-block w-100"
+                alt="verschieden belegte Sandwiches">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselHobbytreffen"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-black" aria-hidden="true"></span>
+            <span class="visually-hidden whiteOnGrey bg-black">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselHobbytreffen"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-black" aria-hidden="true"></span>
+            <span class="visually-hidden whiteOnGrey bg-black">Next</span>
+          </button>
+        </div>
+      </div>
+      <!--Slider Ende-->
+      <hr class="divider">
+      <!--Trennlinie-->
+      <!-- 2 Hobbytreffen nebeneinander in Large in small -->
       <div class="row">
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-          </svg>
-
-          <h2>Heading</h2>
-          <p>Some representative placeholder content for the three columns of text below the carousel. This is the first
-            column.</p>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-          </svg>
-
-          <h2>Heading</h2>
-          <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.
+        <div class="col-sm-6">
+          <h3 tabindex="0">Unterbelichtet</h3>
+          <strong>Fotoinitiative</strong>
+          <p>Unterbelichtet ist die Fotoinitiative der HdM. Wir sind eine Gruppe von fotobegeisterten Studierenden, die
+            einfach Spaß an Fotografie haben. Egal ob Profi oder Amateur, digital oder analog: Jeder ist hier herzlich
+            Willkommen, der Spaß am Fotografieren hat und auch gerne diejenigen, die ihr Wissen und Können mit anderen
+            teilen möchten. Wenn du Interesse hast, schaut vorbei!
+            Weitere Termine und Infos erhaltet Ihr bei unseren wöchentlichen Treffen oder auf unserer Facebook Page.<br>
+            <br>
+            <strong>Treff: Dienstags, 19.30 Uhr</strong>
           </p>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-          </svg>
+          <img class="rounded-circle" src="../images/veranstaltungen/unterbelichtet.jpg" width="140" height="140"
+            role="img" aria-label="Fotoinitiative" alt="Fotoinitiative" preserveAspectRatio="xMidYMid slice"
+            focusable="false">
+          </img>
+        </div><!-- /.col-sm-2 -->
 
-          <h2>Heading</h2>
-          <p>And lastly this, the third column of representative placeholder content.</p>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
+        <div class="col-sm-6">
+          <h3 tabindex="0">Engines Stuttgart </h3>
+          <strong>e-sports Initiative</strong>
+          <p>Du hast Bock auf Gamescom, Dreamhack, Worlds und Co.? Als Mitglied hast du bei uns die Möglichkeit bei den
+            größten eSport und Gaming Events der Welt dabei zu sein. Wir veranstalten auch selbst Turniere, LAN Party´s
+            und Public Viewings, bei denen dir als Mitglied exklusive Vorteile winken.<br>
+            <br>
+            <strong>Treff: Freitags, 18.00 Uhr</strong>
+          </p>
+          <img class="rounded-circle" width="140" height="140" src="../images/veranstaltungen/esports.png" role="img"
+            aria-label="e-sports Initiative" alt="e-sports Initiative" preserveAspectRatio="xMidYMid slice"
+            focusable="false">
+          </img>
+        </div><!-- /.col-sm-2 -->
       </div><!-- /.row -->
-    </div><!-- /.container -->
-  </main>
-  <br>
+      <hr class="divider">
+      <!--Trennlinie-->
+      <!-- Ende carousel -->
+
+      <!-- 2 Hobbytreffen nebeneinander in Large in small -->
+      <div class="row">
+        <div class="col-sm-6">
+          <h3 tabindex="0">THEATER!!!</h3>
+          <strong>Theaterensemble der HdM</strong>
+          <p>Wir sind ein bunter MischMasch aus Studenten, Azubis und Arbeitertierchen jeden Alters zwischen 18 und 35,
+            jeden Geschlechts zwischen männlich und weiblich, jeden Erscheinungsbildes zwischen riesig und winzig, etc.
+            pp.
+            Doch eins haben wir alle gemeinsam: Die Liebe zur Kunst des Schauspiels!
+            Das Theaterensemble der HdM packt jedes Semester ein neues Projekt an: Vom Bühnenklassiker bis zum
+            Kurzstück-Patchwork ist alles möglich.
+            Am Ende der Probenphase heißt es natürlich immer: Get on Stage, Baby!
+            Auch du willst sie erobern, die Bretter, die die Welt bedeuten? Optimal! Dann husch doch mal bei uns vorbei
+            und gönn dir ein paar tiefe Züge Bühnenluft.
+            Kontaktdaten und Informationen zu Probenterminen besprechen wir bei unserem Theater Kaffeeklatsch.<br>
+            <br>
+            <strong>Treff: Sonntag, 10.30 Uhr</strong>
+          </p>
+          <img class="rounded-circle" src="../images/veranstaltungen/theater.jpg" width="140" height="140" role="img"
+            aria-label="Fotoinitiative" alt="Fotoinitiative" preserveAspectRatio="xMidYMid slice" focusable="false">
+          </img>
+        </div><!-- /.col-sm-2 -->
+
+        <div class="col-sm-6">
+          <h3 tabindex="0">Try D.I.Y.</h3>
+          <strong>Do It Yourself Initiative</strong>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+            et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+            amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+            no sea takimata sanctus est Lorem ipsum dolor sit amet.<br>
+            <br>
+            <strong>Treff: Mittwoch, 17.00 Uhr</strong>
+          </p>
+          <img class="rounded-circle" width="140" height="140" src="../images/veranstaltungen/diy.png" role="img"
+            aria-label="e-sports Initiative" alt="e-sports Initiative" preserveAspectRatio="xMidYMid slice"
+            focusable="false">
+          </img>
+        </div><!-- /.col-sm-2 -->
+      </div><!-- /.row -->
+      <hr class="divider">
+      <!--Trennlinie-->
+      <!-- Ende carousel -->
+      <!-- 2 Hobbytreffen nebeneinander in Large in small -->
+      <div class="row">
+        <div class="col-sm-6">
+          <h3 tabindex="0">ThugLife Stuttgart</h3>
+          <strong>Skate Crew</strong>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+            et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+            amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+            no sea takimata sanctus est Lorem ipsum dolor sit amet.<br>
+            <br>
+            <strong>Treff: Samstag und Sonntag, 12.30 Uhr</strong>
+          </p>
+          <img class="rounded-circle" src="../images/veranstaltungen/skatecrew.png" width="140" height="140" role="img"
+            aria-label="Fotoinitiative" alt="Fotoinitiative" preserveAspectRatio="xMidYMid slice" focusable="false">
+          </img>
+        </div><!-- /.col-sm-2 -->
+
+        <div class="col-sm-6">
+          <h3 tabindex="0">Screenprint</h3>
+          <strong>Siebdruck Verein Stuttgart</strong>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+            et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+            amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+            no sea takimata sanctus est Lorem ipsum dolor sit amet.<br>
+            <br>
+            <strong>Treff: Montag, 20.00 Uhr</strong>
+          </p>
+          <img class="rounded-circle" width="140" height="140" src="../images/veranstaltungen/screenprinter.jpg"
+            role="img" aria-label="e-sports Initiative" alt="e-sports Initiative" preserveAspectRatio="xMidYMid slice"
+            focusable="false">
+          </img>
+        </div><!-- /.col-sm-2 -->
+      </div><!-- /.row -->
+      <!-- Ende carousel -->
+    </div>
 </body>
 <footer class="py-3 my-4 navbar-expand-sm  bg-dark navbar-dark mb-0 navbarColor">
   <ul class="nav justify-content-center border-bottom pb-3 mb-3">
