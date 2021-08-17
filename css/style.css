@@ -97,6 +97,11 @@ a:active {
 .sliderFallback{
   background-color: black;
 }
+
+.sliderbg{
+  background-color: #3c3d3e;
+}
+
 @media (max-width: 375px) {
   .squareimage {
     margin-bottom: 40px;
