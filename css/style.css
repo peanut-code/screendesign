@@ -107,6 +107,10 @@ ion-icon {
   font-size: 30px;
 }
 
+.btn-primary{
+  background-color: darkblue;
+}
+
 @media (max-width: 375px) {
   .squareimage {
     margin-bottom: 40px;
