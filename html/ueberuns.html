@@ -13,6 +13,8 @@
     crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <link rel="stylesheet" href="../css/style.css" />
   <title>Über uns - Café Rakete</title>
   <meta name="description" content="Hier findet Ihr alles wichtige über unsere Mitarbeiter und unser Café">
@@ -43,15 +45,15 @@
             <a class="nav-link" href="./speisekarte.html" tabindex="4">Speisekarte</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" aria-disabled="true" href="#">Über uns</a>
+            <a class="nav-link" aria-current="page" aria-disabled="true" href="./ueberuns.html">Über uns</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="./veranstaltungen.html" id="navbardrop" tabindex="1"
+            <a class="nav-link dropdown-toggle" id="navbardrop" tabindex="1"
               data-toggle="dropdown">Veranstaltungen</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="./treff.html" tabindex="1">Hobbytreff</a>
-              <a class="dropdown-item" href="./kultur.html" tabindex="2">Kunst & Kultur</a>
-              <a class="dropdown-item" href="./hilfen.html" tabindex="3">Soziales Netzwerk</a>
+            <div class="dropdown-menu navbarColor">
+              <a class="dropdown-item nav-link" href="./treff.html" tabindex="1">Hobbytreff</a>
+              <a class="dropdown-item nav-link" href="./kultur.html" tabindex="2">Kunst & Kultur</a>
+              <a class="dropdown-item nav-link" href="./hilfen.html" tabindex="3">Soziales Netzwerk</a>
             </div>
           </li>
           <li class="nav-item">
@@ -65,11 +67,11 @@
   <main>
     <!--Seiteninhalt-->
     <div class="container ">
-      
-      
+
+
       <!--Text-Slider-Modul-->
-      <div class="row col-12 m-0">
-        <div class="col-8 m-0">
+      <div class="row col-sm-12 m-0 p-0">
+        <div class="col-lg-8 ">
           <h1 tabindex="0">Über uns</h1>
           <h2 tabindex="0">Willkommen im Café Rakete</h2>
           <p>Seit 7 Jahren begrüßen wir unsere Gäste neben dem Unigelände Vaihingen in Stuttgart. Ab 7h morgens gibt es
@@ -93,16 +95,16 @@
           </p>
         </div>
         <!--Slider-->
-        <div class="col-4">
+        <div class="col-lg-4">
           <div id="carouselUeberUns" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-              <button type="button" title="Slide 1" data-bs-target="#carouselUeberUns" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 2"></button>
+              <button type="button" title="Slide 1" data-bs-target="#carouselUeberUns" data-bs-slide-to="0"
+                class="active" aria-current="true" aria-label="Slide 2"></button>
               <button type="button" title="Slide 3" data-bs-target="#carouselUeberUns" data-bs-slide-to="1"
                 aria-label="Slide 2"></button>
               <button type="button" title="Slide 4" data-bs-target="#carouselUeberUns" data-bs-slide-to="2"
                 aria-label="Slide 3"></button>
-                <button type="button" title="Slide 5" data-bs-target="#carouselUeberUns" data-bs-slide-to="3"
+              <button type="button" title="Slide 5" data-bs-target="#carouselUeberUns" data-bs-slide-to="3"
                 aria-label="Slide 4"></button>
             </div>
             <div class="carousel-inner">
@@ -131,128 +133,143 @@
                 </div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselUeberUns"
-              data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselUeberUns" data-bs-slide="prev">
               <span class="carousel-control-prev-icon bg-black" aria-hidden="true"></span>
               <span class="visually-hidden whiteOnGrey sliderbg">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselUeberUns"
-              data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselUeberUns" data-bs-slide="next">
               <span class="carousel-control-next-icon bg-black" aria-hidden="true"></span>
               <span class="visually-hidden whiteOnGrey sliderbg">Next</span>
             </button>
           </div>
-        </div><!--Slider Ende-->
+        </div>
+        <!--Slider Ende-->
       </div>
       <!--Text-Slider-Modul Ende-->
 
 
-        <hr class="divider"><!--Trennlinie-->
-        
-        <h2 tabindex="0">Unser Team</h2>
+      <hr class="divider">
+      <!--Trennlinie-->
+<div class="row col-sm-12 m-0 p-0">
+      <h2 tabindex="0">Unser Team</h2>
 
-        <!-- Three columns of text below the carousel -->
-        <div class="row">
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="../images/bedienung_personal/pexels-andrea-piacquadio-3801649.jpg"
-              width="140" height="140" role="img" aria-label="Frau Caroline" alt="Frau Caroline"
-              preserveAspectRatio="xMidYMid slice" focusable="false">
-            </img>
-            <h3 tabindex="0">Caroline </h3>
-            <strong>Besitzerin</strong>
-            <p>Mir gehört das Café, darum findet man mich fast immer hier. Bei Fragen zu unseren Angeboten oder neuen
-              Ideen dürft ihr gerne auf mich zukommen. Ansonsten freu ich mich euch zu einem Kaffee oder einer unserer
-              Veranstaltungen zu begrüßen</p>
-          </div><!-- /.col-lg-4 -->
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-sm-4">
+          <img class="rounded-circle" src="../images/bedienung_personal/pexels-andrea-piacquadio-3801649.jpg"
+            width="140" height="140" role="img" aria-label="Frau Caroline" alt="Frau Caroline"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+          </img>
+          <h3 tabindex="0">Caroline </h3>
+          <strong>Besitzerin</strong>
+          <p>Mir gehört das Café, darum findet man mich fast immer hier. Bei Fragen zu unseren Angeboten oder neuen
+            Ideen dürft ihr gerne auf mich zukommen. Ansonsten freu ich mich euch zu einem Kaffee oder einer unserer
+            Veranstaltungen zu begrüßen</p>
+        </div><!-- /.col-lg-4 -->
 
-          <div class="col-lg-4">
-            <img class="rounded-circle" width="140" height="140"
-              src="../images/bedienung_personal/pexels-tim-douglas-6205769.jpg" role="img" aria-label="Frau Marissa"
-              alt="Frau Marissa" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <div class="col-sm-4">
+          <img class="rounded-circle" width="140" height="140"
+            src="../images/bedienung_personal/pexels-tim-douglas-6205769.jpg" role="img" aria-label="Frau Marissa"
+            alt="Frau Marissa" preserveAspectRatio="xMidYMid slice" focusable="false">
 
-            </img>
-            <h3 tabindex="0">Marissa </h3>
-            <strong>Mitarbeiter</strong>
-            <p>Hallo. Ich bin hier seit 5 Jahren Festangestellt. Ich bin an fünf Tagen in der Woche für euch da. Ich
-              empfehle euch besonders unser Frühsücksangebot und die verschiedenen Events und Treffen die hier
-              stattfinden.
-            </p>
-          </div><!-- /.col-lg-4 -->
+          </img>
+          <h3 tabindex="0">Marissa </h3>
+          <strong>Mitarbeiter</strong>
+          <p>Hallo. Ich bin hier seit 5 Jahren Festangestellt. Ich bin an fünf Tagen in der Woche für euch da. Ich
+            empfehle euch besonders unser Frühsücksangebot und die verschiedenen Events und Treffen die hier
+            stattfinden.
+          </p>
+        </div><!-- /.col-lg-4 -->
 
-          <div class="col-lg-4">
-            <img class=" rounded-circle" width="140" height="140"
-              src="../images/bedienung_personal/pexels-tim-douglas-6205647.jpg" role="img" aria-label="Mann Milo"
-              alt="Mann Milo" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <div class="col-sm-4">
+          <img class=" rounded-circle" width="140" height="140"
+            src="../images/bedienung_personal/pexels-tim-douglas-6205647.jpg" role="img" aria-label="Mann Milo"
+            alt="Mann Milo" preserveAspectRatio="xMidYMid slice" focusable="false">
 
-            </img>
-            <h3 tabindex="0">Milo </h3>
-            <strong>Mitarbeiter</strong>
-            <p>Hallo und Willkommen in der Rakete. Wir haben den allerbesten Kaffee und ich bin euer benadeter Barista.
-              Also kommt und lasst euch mit einem guten Espresso verwöhnen.</p>
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-        <!-- Ende carousel -->
+          </img>
+          <h3 tabindex="0">Milo </h3>
+          <strong>Mitarbeiter</strong>
+          <p>Hallo und Willkommen in der Rakete. Wir haben den allerbesten Kaffee und ich bin euer benadeter Barista.
+            Also kommt und lasst euch mit einem guten Espresso verwöhnen.</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      <!-- Ende carousel -->
 
-        <hr class="divider"><!--Trennlinie-->
+      <hr class="divider">
+      <!--Trennlinie-->
 
-         <!-- Three columns of text below the carousel -->
-        <div class="row">
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="../images/bedienung_personal/pexels-kampus-production-5920775.jpg"
-              width="140" height="140" role="img" aria-label="Mann Laurence" alt="Mann Laurence"
-              preserveAspectRatio="xMidYMid slice" focusable="false">
-            </img>
-            <h3 tabindex="0">Laurence </h3>
-            <strong>Teilzeit</strong>
-            <p>Hey. Ihr wollt euch mit Freunden zum Brunchen treffen oder einfach einen kleinen Energieschub? Dann seid
-              ihr bei uns genau richtig. Wir haben eine tolle Kaffee und Frühstücksauswahl.</p>
-          </div><!-- /.col-lg-4 -->
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-sm-4">
+          <img class="rounded-circle" src="../images/bedienung_personal/pexels-kampus-production-5920775.jpg"
+            width="140" height="140" role="img" aria-label="Mann Laurence" alt="Mann Laurence"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+          </img>
+          <h3 tabindex="0">Laurence </h3>
+          <strong>Teilzeit</strong>
+          <p>Hey. Ihr wollt euch mit Freunden zum Brunchen treffen oder einfach einen kleinen Energieschub? Dann seid
+            ihr bei uns genau richtig. Wir haben eine tolle Kaffee und Frühstücksauswahl.</p>
+        </div><!-- /.col-lg-4 -->
 
-          <div class="col-lg-4">
-            <img class="rounded-circle" width="140" height="140"
-              src="../images/bedienung_personal/pexels-ketut-subiyanto-4349857.jpg" role="img" aria-label="Frau Tara"
-              alt="Frau Tara" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <div class="col-sm-4">
+          <img class="rounded-circle" width="140" height="140"
+            src="../images/bedienung_personal/pexels-ketut-subiyanto-4349857.jpg" role="img" aria-label="Frau Tara"
+            alt="Frau Tara" preserveAspectRatio="xMidYMid slice" focusable="false">
 
-            </img>
-            <h3 tabindex="0">Tara </h3>
-            <strong>Aushilfe</strong>
-            <p>Hey ihr lieben. Ich arbeite neben meinem Studium als Teilzeit in dem Café Rakete. Habt ihr schon
-              geschaut,
-              ob bei unseren Treffen was für euch dabei ist? Meist treffen sich die Gruppen einmal die Woche zu festen
-              Uhrzeiten.
-            </p>
-          </div><!-- /.col-lg-4 -->
+          </img>
+          <h3 tabindex="0">Tara </h3>
+          <strong>Aushilfe</strong>
+          <p>Hey ihr lieben. Ich arbeite neben meinem Studium als Teilzeit in dem Café Rakete. Habt ihr schon
+            geschaut,
+            ob bei unseren Treffen was für euch dabei ist? Meist treffen sich die Gruppen einmal die Woche zu festen
+            Uhrzeiten.
+          </p>
+        </div><!-- /.col-lg-4 -->
 
-          <div class="col-lg-4">
-            <img class=" rounded-circle" width="140" height="140"
-              src="../images/bedienung_personal/pexels-gary-barnes-6231987.jpg" role="img" aria-label="Mann Milo"
-              alt="Mann Milo" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <div class="col-sm-4">
+          <img class=" rounded-circle" width="140" height="140"
+            src="../images/bedienung_personal/pexels-gary-barnes-6231987.jpg" role="img" aria-label="Mann Milo"
+            alt="Mann Milo" preserveAspectRatio="xMidYMid slice" focusable="false">
 
-            </img>
-            <h3 tabindex="0">Lara </h3>
-            <strong>Aushilfe</strong>
-            <p>Hey. Ihr habt lust euch im Sommer zwischen dem lernen Lust auf eine Stück Kuchen? Dann kommt doch auf ein
-              Stück auf unsere Terasse vorbei.</p>
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-        <!-- Ende carousel -->
-
-        <br>
-      </div>
+          </img>
+          <h3 tabindex="0">Lara </h3>
+          <strong>Aushilfe</strong>
+          <p>Hey. Ihr habt lust euch im Sommer zwischen dem lernen Lust auf eine Stück Kuchen? Dann kommt doch auf ein
+            Stück auf unsere Terasse vorbei.</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      <!-- Ende carousel -->
+    </div>
+      <br>
+    </div>
   </main>
   <br>
 </body>
 
-<footer class="py-3 my-4 navbar-expand-sm  bg-dark navbar-dark navbarColor mb-0">
-  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+<footer class="py-3 my-4 navbar-expand-sm  bg-dark navbar-dark navbarColor mb-0 col-sm-12">
+  <div class="row col-sm-12 border-bottom d-flex flex-wrap justify-content-between align-items-center pb-3 mb-3">
+    <div class="col-sm-2"></div>
+    <ul class="nav col-sm-8 justify-content-sm-center">
     <li class="navbar-nav"><a href="../index.html" class="nav-link px-2  " tabindex="0">Home</a></li>
     <li class="navbar-nav"><a href="./kontakt.html" class="nav-link px-2  " tabindex="0">Kontakt</a></li>
     <li class="navbar-nav"><a href="./datenschutz.html" class="nav-link px-2  " tabindex="0">Datenschutz</a></li>
     <li class="navbar-nav"><a href="./impressum.html" class="nav-link px-2  " tabindex="0">Impressum</a>
     </li>
   </ul>
+  <ul class="nav col-sm-2 justify-content-sm-center p-sm-0 mb-sm-0">
+    <li><a class="text-muted" href="https://de-de.facebook.com/" tabindex="0">
+        <ion-icon name="logo-facebook" class="p-sm-0 m-sm-0"></ion-icon>
+      </a></li>
+    <li><a class="text-muted" href="https://www.instagram.com/" tabindex="0">
+        <ion-icon name="logo-instagram" class="pr-sm-2 pl-sm-2 m-sm-0"></ion-icon>
+      </a></li>
+    <li><a class="text-muted" href="https://twitter.com/explore" tabindex="0">
+        <ion-icon name="logo-twitter" class="pr-sm-0 m-sm-0"></ion-icon>
+      </a></li>
+  </ul>
+</div>
   <p class="text-center  "><a class="text-center  " href="../index.html"><img src="../images/Logo.png" alt="Logo Rakete"
-    width="128px"></a></p>
+        width="128px"></a></p>
 </footer>
 
 
