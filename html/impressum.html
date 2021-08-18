@@ -9,10 +9,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-    crossorigin="anonymous"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="../css/style.css" />
     <title>Impressum - Café Rakete</title>
     <meta name="description" content="Das Impressum unseres Cafés Rakete">
@@ -24,7 +26,8 @@
         <!--Header-->
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark navbarColor">
             <!--Logo-->
-            <a class="navbar-brand" href="../index.html"><img src="../images/Logo.png" alt="startseite" width="64px"></a>
+            <a class="navbar-brand" href="../index.html"><img src="../images/Logo.png" alt="startseite"
+                    width="64px"></a>
 
             <!-- Burger Menu Button -->
             <button class="navbar-toggler" type="button" title="burger-menu-button" data-toggle="collapse"
@@ -37,7 +40,7 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link"  href="../index.html" tabindex="1">Home</a>
+                        <a class="nav-link" href="../index.html" tabindex="1">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./speisekarte.html" tabindex="2">Speisekarte</a>
@@ -46,13 +49,13 @@
                         <a class="nav-link" href="./ueberuns.html" tabindex="3">Über uns</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="./veranstaltungen.html" id="navbardrop" tabindex="4"
+                        <a class="nav-link dropdown-toggle" id="navbardrop" tabindex="4"
                             data-toggle="dropdown">Veranstaltungen</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="./treff.html" tabindex="4">Hobbytreff</a>
-                            <a class="dropdown-item" href="./kultur.html" tabindex="5">Kunst &
+                        <div class="dropdown-menu navbarColor">
+                            <a class="dropdown-item nav-link" href="./treff.html" tabindex="4">Hobbytreff</a>
+                            <a class="dropdown-item nav-link" href="./kultur.html" tabindex="5">Kunst &
                                 Kultur</a>
-                            <a class="dropdown-item" href="./hilfen.html" tabindex="6">Soziales Netzwerk</a>
+                            <a class="dropdown-item nav-link" href="./hilfen.html" tabindex="6">Soziales Netzwerk</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -66,6 +69,7 @@
 
     <!--Seiteninhalt-->
     <div class="container">
+        <div class="col-sm-12">
         <h1 tabindex="0">Impressum</h1>
         <h2 tabindex="0">Angaben gemäß § 5 TMG</h2>
         <p>Café Rakete Stuttgart<br>
@@ -136,22 +140,36 @@
             Copyright.
         </p>
     </div>
+</div>
 
     <div class="b-example-divider"></div>
-<br>
+    <br>
 </body>
 
-    <footer class="py-3 my-4 navbar-expand-sm  bg-dark navbar-dark mb-0 navbarColor">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3 ">
-            <li class="navbar-nav"><a href="../index.html" class="nav-link px-2  " tabindex="0">Home</a></li>
-            <li class="navbar-nav"><a href="./kontakt.html" class="nav-link px-2  " tabindex="0">Kontakt</a></li>
-            <li class="navbar-nav"><a href="./datenschutz.html" class="nav-link px-2  "
-                    tabindex="0">Datenschutz</a></li>
-            <li class="navbar-nav"><a aria-current="page" href="./impressum.html" class="nav-link px-2  " tabindex="0">Impressum</a>
-            </li>
-        </ul>
-        <p class="text-center  "><img
-                    src="../images/Logo.png" alt="Logo Rakete" width="128px"></p>
-    </footer>
+<footer class="py-3 my-4 navbar-expand-sm  bg-dark navbar-dark mb-0 navbarColor">
+    <div class="row col-sm-12 border-bottom d-flex flex-wrap justify-content-between align-items-center pb-3 mb-3">
+        <div class="col-sm-2"></div>
+        <ul class="nav col-sm-8 justify-content-sm-center">
+        <li class="navbar-nav"><a href="../index.html" class="nav-link px-2  " tabindex="0">Home</a></li>
+        <li class="navbar-nav"><a href="./kontakt.html" class="nav-link px-2  " tabindex="0">Kontakt</a></li>
+        <li class="navbar-nav"><a href="./datenschutz.html" class="nav-link px-2  " tabindex="0">Datenschutz</a></li>
+        <li class="navbar-nav"><a aria-current="page" href="./impressum.html" class="nav-link px-2  "
+                tabindex="0">Impressum</a>
+        </li>
+    </ul>
+    <ul class="nav col-sm-2 justify-content-sm-center p-sm-0 mb-sm-0">
+        <li><a class="text-muted" href="https://de-de.facebook.com/" tabindex="0">
+            <ion-icon name="logo-facebook" class="p-sm-0 m-sm-0"></ion-icon>
+          </a></li>
+        <li><a class="text-muted" href="https://www.instagram.com/" tabindex="0">
+            <ion-icon name="logo-instagram" class="pr-sm-2 pl-sm-2 m-sm-0"></ion-icon>
+          </a></li>
+        <li><a class="text-muted" href="https://twitter.com/explore" tabindex="0">
+            <ion-icon name="logo-twitter" class="pr-sm-0 m-sm-0"></ion-icon>
+          </a></li>
+      </ul>
+    </div>
+    <p class="text-center  "><img src="../images/Logo.png" alt="Logo Rakete" width="128px"></p>
+</footer>
 
 </html>

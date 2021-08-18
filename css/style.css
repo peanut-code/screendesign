@@ -51,6 +51,23 @@ a:active {
   font-size: bold;
 }
 
+.dropdown-item:hover{
+  background-color:  #343a40 !important;
+  color: rgba(255,255,255, .8) !important;
+}
+
+.dropdown-item{
+  color: rgba(255,255,255,.55) !important;
+}
+
+.dropdown-toggle{
+  color: rgba(255,255,255,.55) !important;
+}
+
+.dropdown-toggle:hover{
+  color: rgba(255,255,255, .8) !important;
+}
+
 .squareimage {
   position: relative;
   color: brown;
@@ -111,8 +128,30 @@ ion-icon {
   background-color: darkblue;
 }
 
+.table-scrollable {
+  width: 100%;
+  overflow-y: auto;
+  margin: 0 0 1em;
+}
+
+.table-scrollable::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+}
+
+
 @media (max-width: 375px) {
   .squareimage {
     margin-bottom: 40px;
+  }
+
+  .speisekarteTabelle{
+    display: flex !important;
+    flex-direction: row;
+  }
+
+  .speisekarte{
+    padding: 0 !important;
   }
 }

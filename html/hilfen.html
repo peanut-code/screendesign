@@ -13,6 +13,8 @@
         crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="../css/style.css" />
     <title>Soziales Netzwerk - Café Rakete</title>
     <meta name="description" content="Unsere exklusiv inklusiven Angebote von Menschen für Menschen.">
@@ -45,15 +47,15 @@
                         <a class="nav-link" href="./ueberuns.html" tabindex="4">Über uns</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="./veranstaltungen.html" id="navbardrop" tabindex="5"
-                            data-toggle="dropdown">Veranstaltungen</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="./treff.html" tabindex="5">Hobbytreff</a>
-                            <a class="dropdown-item" href="./kultur.html" tabindex="6">Kunst & Kultur</a>
-                            <a class="dropdown-item" aria-current="page" aria-disabled="true" href="#">Soziales
-                                Netzwerk</a>
+                        <a class="nav-link dropdown-toggle" id="navbardrop" tabindex="3"
+                          data-toggle="dropdown">Veranstaltungen</a>
+                        <div class="dropdown-menu navbarColor">
+                          <a class="dropdown-item nav-link" href="./treff.html" tabindex="3">Hobbytreff</a>
+                          <a class="dropdown-item nav-link" href="./kultur.html" tabindex="4">Kunst &
+                            Kultur</a>
+                          <a class="dropdown-item nav-link" href="./hilfen.html" tabindex="5">Soziales Netzwerk</a>
                         </div>
-                    </li>
+                      </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./kontakt.html" tabindex="1">Kontakt</a>
                     </li>
@@ -64,6 +66,7 @@
     </header>
     <main>
         <div class="container">
+            <div class="col-sm-12">
             <div class="jumbotron bg-light mb-0">
                 <h1 class="display-4">Eltern Café</h1>
                 <p class="lead">Ein Elterncafe oder Eltern-Kind-Cafe ist ein Treffpunkt für junge Eltern</p>
@@ -85,6 +88,8 @@
                     href="https://www.mueze-stuttgart.de/index.php/Elterngespr%C3%A4che.html" role="button"
                     alt="zur Homepage des MüZe Süd für weitere Informationen">zu den Terminen</a>
             </div>
+        </div>
+        <div class="col-sm-12">
             <div class="jumbotron bg-lightgrey mb-0">
                 <h1 class="display-4">Sprachcafé</h1>
                 <p class="lead">Das Sprachcafé ist ein lockerer Treff für alle die gerade Deutsch lernen</p>
@@ -111,6 +116,8 @@
                     href="https://doodle.com/poll/etznshpkt8zssxuc?utm_source=poll&utm_medium=link" role="button">zu den
                     Terminen</a>
             </div>
+        </div>
+        <div class="col-sm-12">
             <div class="jumbotron bg-light mb-0">
                 <h1 class="display-4">Queerdenker*innen</h1>
                 <p class="lead">Die Queerdenker* sind eine Gruppe aus Stuttgart für LGBTQ+ Jugendliche, junge Erwachsene und Interessierte!</p>
@@ -121,12 +128,15 @@
                     href="https://queerdenker-stuttgart.com/" role="button">mehr
                     erfahren</a>
             </div>
+            </div>
         </div>
     </main>
     <br>
 </body>
-<footer class="py-3 my-4 navbar-expand-sm  bg-dark navbar-dark mb-0 navbarColor">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+<footer class="py-3 my-4 navbar-expand-sm  bg-dark navbar-dark mb-0 navbarColor col-sm-0">
+    <div class="row col-sm-12 border-bottom d-flex flex-wrap justify-content-between align-items-center pb-3 mb-3">
+        <div class="col-sm-2"></div>
+        <ul class="nav col-sm-8 justify-content-sm-center">
         <li class="navbar-nav"><a href="../index.html" class="nav-link px-2  " tabindex="0">Home</a></li>
         <li class="navbar-nav"><a href="./kontakt.html" class="nav-link px-2  " tabindex="0">Kontakt</a></li>
         <li class="navbar-nav"><a href="./Datenschutz.html" class="nav-link px-2  " tabindex="0">Datenschutz</a>
@@ -134,6 +144,18 @@
         <li class="navbar-nav"><a href="./Impressum.html" class="nav-link px-2  " tabindex="0">Impressum</a>
         </li>
     </ul>
+    <ul class="nav col-sm-2 justify-content-sm-center p-sm-0 mb-sm-0">
+        <li><a class="text-muted" href="https://de-de.facebook.com/" tabindex="0">
+            <ion-icon name="logo-facebook" class="p-sm-0 m-sm-0"></ion-icon>
+          </a></li>
+        <li><a class="text-muted" href="https://www.instagram.com/" tabindex="0">
+            <ion-icon name="logo-instagram" class="pr-sm-2 pl-sm-2 m-sm-0"></ion-icon>
+          </a></li>
+        <li><a class="text-muted" href="https://twitter.com/explore" tabindex="0">
+            <ion-icon name="logo-twitter" class="pr-sm-0 m-sm-0"></ion-icon>
+          </a></li>
+      </ul>
+    </div>
     <p class="text-center  "><img src="../images/Logo.png" alt="Logo Rakete" width="128px"></p>
 </footer>
 
