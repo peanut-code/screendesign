@@ -56,6 +56,10 @@ a:active {
   color: rgba(255,255,255, .8) !important;
 }
 
+.dropdown-item:active{
+  background-color:  #343a40 !important;
+  color: rgba(255,255,255, .8) !important;
+}
 .dropdown-item{
   color: rgba(255,255,255,.55) !important;
 }
@@ -128,17 +132,6 @@ ion-icon {
   background-color: darkblue;
 }
 
-.table-scrollable {
-  width: 100%;
-  overflow-y: auto;
-  margin: 0 0 1em;
-}
-
-.table-scrollable::-webkit-scrollbar {
-  -webkit-appearance: none;
-  width: 14px;
-  height: 14px;
-}
 
 
 @media (max-width: 375px) {
