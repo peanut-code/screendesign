@@ -140,6 +140,9 @@ ion-icon {
   background-color: darkblue;
 }
 
+.speisekarteGrau {
+  background-color: rgb(233, 236, 239) !important;
+}
 @media (max-width: 375px) {
   .squareimage {
     margin-bottom: 40px;
