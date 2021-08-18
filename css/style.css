@@ -3,7 +3,7 @@ h2 {
 }
 
 h2 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 h3 {
@@ -28,10 +28,9 @@ a:link {
 
 /*verursacht rot in der Navigation*/
 /*a[aria-disabled="true"]:hover {*/
-  /*color: rgba(255,255,255,.5);*/
- /* color: red;
+/*color: rgba(255,255,255,.5);*/
+/* color: red;
 }*/
-
 
 /* visited link */
 a:visited {
@@ -51,25 +50,25 @@ a:active {
   font-size: bold;
 }
 
-.dropdown-item:hover{
-  background-color:  #343a40 !important;
-  color: rgba(255,255,255, .8) !important;
+.dropdown-item:hover {
+  background-color: #343a40 !important;
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 
-.dropdown-item:active{
-  background-color:  #343a40 !important;
-  color: rgba(255,255,255, .8) !important;
+.dropdown-item:visited {
+  background-color: #343a40 !important;
+  color: rgba(255, 255, 255, 0.8) !important;
 }
-.dropdown-item{
-  color: rgba(255,255,255,.55) !important;
-}
-
-.dropdown-toggle{
-  color: rgba(255,255,255,.55) !important;
+.dropdown-item {
+  color: rgba(255, 255, 255, 0.55) !important;
 }
 
-.dropdown-toggle:hover{
-  color: rgba(255,255,255, .8) !important;
+.dropdown-toggle {
+  color: rgba(255, 255, 255, 0.55) !important;
+}
+
+.dropdown-toggle:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .squareimage {
@@ -78,7 +77,6 @@ a:active {
   padding: unset;
   margin-bottom: 80px;
 }
-
 
 .squareimage img {
   display: block;
@@ -98,53 +96,50 @@ a:active {
 /*Footer*/
 
 .navbarColor {
-    background-color:  #343a40 !important;
+  background-color: #343a40 !important;
 }
 
-.whiteContrast{
-    color: #767676;
+.whiteContrast {
+  color: #767676;
 }
-.whiteOnGrey{
+.whiteOnGrey {
   color: #fafbfc !important;
 }
 
-.whiteButtonColor{
+.whiteButtonColor {
   color: #fefeff;
 }
 
-.errors{
+.errors {
   color: darkred;
 }
-.sliderFallback{
+.sliderFallback {
   background-color: black;
 }
 
-.sliderbg{
+.sliderbg {
   background-color: #3c3d3e;
 }
 ion-icon {
-  
   color: white;
   font-size: 30px;
 }
 
-.btn-primary{
+.btn-primary {
   background-color: darkblue;
 }
-
-
 
 @media (max-width: 375px) {
   .squareimage {
     margin-bottom: 40px;
   }
 
-  .speisekarteTabelle{
+  .speisekarteTabelle {
     display: flex !important;
     flex-direction: row;
   }
 
-  .speisekarte{
+  .speisekarte {
     padding: 0 !important;
   }
 }
