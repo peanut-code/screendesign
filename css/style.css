@@ -1,4 +1,4 @@
-h2 {
+h1 {
   margin-bottom: 20px;
 }
 
@@ -90,9 +90,20 @@ a:active {
 }
 
 .btn-primary {
-  background-color: #0072ed;
+  background-color: black !important;
+  border: black;
 }
 
+.btn-primary:hover{
+  background-color: #343a40 !important  ;
+}
+
+.btn-primary:active{
+  border: black;
+  outline: black;
+  transition: unset;
+  -webkit-transition: unset;
+}
 /*Footer*/
 
 .navbarColor {
