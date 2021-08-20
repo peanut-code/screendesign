@@ -49,15 +49,18 @@ li .nav-link {
 
 .nav-link:hover{
   color:  #f8f9fa !important;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
   text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
   font-size: bold;
 }
 
 a:link {
   text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
   font-size: bold;
 }
 
@@ -82,19 +85,16 @@ a:hover {
 a:active {
   text-decoration: underline;
   font-size: bold;
+  font-family: 'Montserrat', sans-serif;
 }
 .card-header{
-  
   background-color: #dc582a;
   color: #272a2c !important;
-
 }
+
 .card{
   border: 0;
 }
-
-
-
 
 .dropdown-item:hover {
   background-color: #272a2c !important;
@@ -142,6 +142,7 @@ a:active {
   outline: #272a2c;
   transition: unset;
   -webkit-transition: unset;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .orange{
@@ -151,19 +152,18 @@ a:active {
 
 .btn-primary:hover {
   background-color: #272a2c !important;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .btn-primary:active {
   border: #272a2c;
   outline: #272a2c;
   transition: unset;
+  font-family: 'Montserrat', sans-serif;
   -webkit-transition: unset;
 }
 
-/*Footer*/
-
 .navbarColor {
-
   background-color: #dc582a  !important;
   color: #272a2c !important;
 }
