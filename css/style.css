@@ -13,7 +13,7 @@ h1 {
 h2 {
   margin-bottom: 20px;
   font-family: 'Lato', sans-serif;
-  color: #272a2c;
+  color: black;
 }
 
 .h2orange{
@@ -23,19 +23,26 @@ h2 {
 h3 {
   margin-bottom: 20px;
   font-family: 'Montserrat', sans-serif;
-  color: #272a2c;
+  color: black;
 }
 
 p {
   font-family: 'Montserrat', sans-serif;
-  color: #272a2c !important;
+  color: black ;
 }
 
 span {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   color: #dc582a;
+  font-size: 20px;
 }
+
+th{
+  font-size: 20px;
+}
+
+
 
 li {
   font-family: 'Montserrat', sans-serif;
@@ -43,7 +50,7 @@ li {
 
 li .nav-link {
   font-family: 'Montserrat', sans-serif;
-  color:  #272a2c !important;
+  color:  black !important;
   font-weight: bold;
 }
 
@@ -148,6 +155,7 @@ a:active {
 .orange{
   background-color: #dc582a !important;
   outline: #272a2c;
+  color: black;
 }
 
 .btn-primary:hover {
@@ -168,8 +176,12 @@ a:active {
   color: #272a2c !important;
 }
 
-.whiteOnGrey {
-  color: #f8f9fa  !important;
+.anschrift {
+  color: black;
+}
+
+.anschrift:hover{
+  color: #f8f9fa;
 }
 
 .whiteButtonColor {
@@ -190,7 +202,7 @@ a:active {
 
 ion-icon {
   color: #f8f9fa ;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .speisekarte{
