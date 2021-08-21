@@ -189,7 +189,10 @@ a:active {
 }
 
 .errors {
-  color:#dc582a;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: #dc582a;
+  font-size: 20px;
 }
 
 .sliderFallback {
@@ -200,10 +203,6 @@ a:active {
   background-color: #272a2c;
 }
 
-ion-icon {
-  color: #f8f9fa ;
-  font-size: 35px;
-}
 
 .speisekarte{
   color: #f8f9fa   !important;

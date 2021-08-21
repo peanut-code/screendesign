@@ -9,8 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@400;700&display=swap"
         rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Architects+Daughter&family=Courgette&display=swap" rel="stylesheet">
-        
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Architects+Daughter&family=Courgette&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -26,53 +28,70 @@
     <title>Kontakt - Café Rakete</title>
     <meta name="description"
         content="Kontaktieren Sie uns, finden Sie die Anfahrt und informieren Sie sich über die Öffnungszeiten">
+    <script>
+        var form = document.querySelector('.needs-validation');
+
+        form.addEventListener('submit', function (event) {
+            if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+        });
+
+
+    </script>
 </head>
 
-<body >
+<body>
     <header>
         <!--Header-->
         <div class="col-sm-12 navbarColor">
             <div class="container navbarColor">
-        <nav class="navbar navbar-expand-sm  navbar-dark navbarColor">
-            <!--Logo-->
-            <a class="navbar-brand" href="../index.html" tabindex="1"><img src="../images/Logo.png" alt="startseite"
-                    width="64px"></a>
+                <nav class="navbar navbar-expand-sm  navbar-dark navbarColor">
+                    <!--Logo-->
+                    <a class="navbar-brand" href="../index.html" tabindex="1"><img src="../images/Logo.png"
+                            alt="startseite" width="64px"></a>
 
-            <!-- Burger Menu Button -->
-            <button class="navbar-toggler" type="button" title="burger-menu-button" data-toggle="collapse"
-                data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                    <!-- Burger Menu Button -->
+                    <button class="navbar-toggler" type="button" title="burger-menu-button" data-toggle="collapse"
+                        data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
 
-            <!--Links-->
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html" tabindex="2">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./speisekarte.html" tabindex="3">Speisekarte</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./ueberuns.html" tabindex="4">Über uns</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbardrop" tabindex="5" href="./veranstaltungen.html"
-                            data-toggle="dropdown">Veranstaltungen</a>
-                        <div class="dropdown-menu navbarColor">
-                            <a class="dropdown-item nav-link" href="./treff.html" tabindex="5">Hobbytreff</a>
-                            <a class="dropdown-item nav-link" href="./kultur.html" tabindex="6">Kunst & Kultur</a>
-                            <a class="dropdown-item nav-link" href="./hilfen.html" tabindex="7">Soziales Netzwerk</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" aria-disabled="true" href="./kontakt.html" tabindex="6">Kontakt</a>
-                    </li>
-                </ul>
+                    <!--Links-->
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html" tabindex="2">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./speisekarte.html" tabindex="3">Speisekarte</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./ueberuns.html" tabindex="4">Über uns</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbardrop" tabindex="5"
+                                    href="./veranstaltungen.html" data-toggle="dropdown">Veranstaltungen</a>
+                                <div class="dropdown-menu navbarColor">
+                                    <a class="dropdown-item nav-link" href="./treff.html" tabindex="5">Hobbytreff</a>
+                                    <a class="dropdown-item nav-link" href="./kultur.html" tabindex="6">Kunst &
+                                        Kultur</a>
+                                    <a class="dropdown-item nav-link" href="./hilfen.html" tabindex="7">Soziales
+                                        Netzwerk</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" aria-disabled="true" href="./kontakt.html"
+                                    tabindex="6">Kontakt</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-        </nav>
-    </div></div>
+        </div>
         <br>
         <br>
     </header>
@@ -84,7 +103,7 @@
 
             <h1 tabindex="0">Kontakt</h1>
             <br />
-             <h2 class="h2orange" tabindex="0">Öffnungszeiten</h2>
+            <h2 class="h2orange" tabindex="0">Öffnungszeiten</h2>
 
         </div>
         <!--Tabelle-->
@@ -94,20 +113,20 @@
                 <table class="table">
                     <tbody>
                         <tr>
-                             <th class="h2orange" scope="row">Montag</th>
-                             <td class="text-light">8:00 - 18:00</td>
+                            <th class="h2orange" scope="row">Montag</th>
+                            <td class="text-light">8:00 - 18:00</td>
                         </tr>
                         <tr>
-                             <th class="h2orange" scope="row">Dienstag</th>
-                             <td class="text-light">8:00 - 18:00</td>
+                            <th class="h2orange" scope="row">Dienstag</th>
+                            <td class="text-light">8:00 - 18:00</td>
                         </tr>
                         <tr>
-                             <th class="h2orange" scope="row">Mittwoch</th>
-                             <td class="text-light">8:00 - 18:00</td>
+                            <th class="h2orange" scope="row">Mittwoch</th>
+                            <td class="text-light">8:00 - 18:00</td>
                         </tr>
                         <tr>
-                             <th class="h2orange" scope="row">Donnerstag</th>
-                             <td class="text-light">8:00 - 21:00</td>
+                            <th class="h2orange" scope="row">Donnerstag</th>
+                            <td class="text-light">8:00 - 21:00</td>
                         </tr>
                     </tbody>
                 </table>
@@ -116,20 +135,20 @@
                 <table class="table">
                     <tbody>
                         <tr>
-                             <th class="h2orange" scope="row">Freitag</th>
-                             <td class="text-light">8:00 - 23:00</td>
+                            <th class="h2orange" scope="row">Freitag</th>
+                            <td class="text-light">8:00 - 23:00</td>
                         </tr>
                         <tr>
-                             <th class="h2orange" scope="row">Samstag</th>
-                             <td class="text-light">8:00 - 23:00</td>
+                            <th class="h2orange" scope="row">Samstag</th>
+                            <td class="text-light">8:00 - 23:00</td>
                         </tr>
                         <tr>
-                             <th class="h2orange" scope="row">Sonntag</th>
-                             <td class="text-light">8:00 - 22:00</td>
+                            <th class="h2orange" scope="row">Sonntag</th>
+                            <td class="text-light">8:00 - 22:00</td>
                         </tr>
                         <tr>
-                             <th class="h2orange" scope="row">Feiertage</th>
-                             <td class="text-light">8:00 - 22:00</td>
+                            <th class="h2orange" scope="row">Feiertage</th>
+                            <td class="text-light">8:00 - 22:00</td>
                         </tr>
                     </tbody>
                 </table>
@@ -138,36 +157,37 @@
         </div>
         <br>
         <!--Ende Tabelle-->
-       
+
         <!--Kontaktformular-->
         <br>
         <div class="row col-sm-12 m-0 p-0">
             <div class="col-sm-8 ">
-                 <h2 class="h2orange" tabindex="0">Kontaktformular</h2>
-                 <p class="text-light">Bei Fragen, Anmerkungen oder für Reservierungen kannst du uns gerne eine Anfrage schicke. Ansonsten
+                <h2 class="h2orange" tabindex="0">Kontaktformular</h2>
+                <p class="text-light">Bei Fragen, Anmerkungen oder für Reservierungen kannst du uns gerne eine Anfrage
+                    schicke. Ansonsten
                     sind wir auch per Mail oder Telefon erreichbar.</p>
-                <span >Bitte fülle alle mit einem Stern <strong>*</strong> gekennzeichneten Felder aus
+                <span>Bitte fülle alle mit einem Stern <strong>*</strong> gekennzeichneten Felder aus
                 </span></br>
                 <br>
                 <form action="https://form.taxi/s/z4gkm1si" method="post" class="main-form needs-validation" novalidate>
                     <div class="row">
                         <div class="col">
                             <div class="form-group">
-                                 <label class="text-light" for="firstname">Vorname<strong>*</strong></label>
+                                <label class="text-light" for="firstname">Vorname<strong>*</strong></label>
                                 <input type="text" name="Vorname" id="firstname" class="form-control " required>
                                 <div class="invalid-feedback errors">Bitte geben Sie Ihren Vornamen an!</div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="form-group">
-                                 <label class="text-light" for="lastname">Nachname<strong>*</strong></label>
+                                <label class="text-light" for="lastname">Nachname<strong>*</strong></label>
                                 <input type="text" name="Nachname" id="lastname" class="form-control" required>
                                 <div class="invalid-feedback errors">Bitte geben Sie Ihren Nachnamen an!</div>
                             </div>
                         </div>
                     </div>
                     <div class="form-group">
-                         <label class="text-light" for="email">E-Mail<strong>*</strong></label>
+                        <label class="text-light" for="email">E-Mail<strong>*</strong></label>
                         <input type="email" name="Email" id="email" class="form-control" required>
                         <div class="mustern text-light">Mustermann@senden.com</div>
                         <div class="invalid-feedback errors">Bitte geben Sie eine korrekte E-Mail Adresse mit mindestens
@@ -176,7 +196,8 @@
                     </div>
 
                     <div class="form-group">
-                         <label class="text-light" for="validationTextarea" class="form-label">Nachricht<strong>*</strong></label>
+                        <label class="text-light" for="validationTextarea"
+                            class="form-label">Nachricht<strong>*</strong></label>
                         <textarea class="form-control" name="Nachricht" id="validationTextarea"
                             placeholder="Hier Text..." required></textarea>
                         <div class="invalid-feedback errors">Bitte geben Sie eine Nachricht für uns ein!</div>
@@ -185,7 +206,8 @@
                     <div>
                         <div class="form-check">
                             <input type="checkbox" id="accept-terms" class="form-check-input" required>
-                             <label class="text-light" for="accept-terms" class="form-check-label">Akzeptieren Sie die Allgemeinen
+                            <label class="text-light" for="accept-terms" class="form-check-label">Akzeptieren Sie die
+                                Allgemeinen
                                 AGBs<strong>*</strong></label>
                             <div class="invalid-feedback errors">Bitte akzepieren Sie die AGBs vor dem Versenden des
                                 Formulars!
@@ -198,40 +220,28 @@
             </div>
         </div>
 
-        <script>
-            var form = document.querySelector('.needs-validation');
 
-            form.addEventListener('submit', function (event) {
-                if (form.checkValidity() === false) {
-                    event.preventDefault();
-                    event.stopPropagation();
-                }
-                form.classList.add('was-validated');
-            });
-
-
-        </script>
         <br>
         <!--Ende Kontaktformular-->
-  
+
 
         <!--Einbinden von Google maps für die Anfahrt-->
         <br>
         <div class="row col-sm-12 m-0 p-0">
             <div class="col-sm-8 mb-3">
-                 <h2 class="h2orange" tabindex="0">Anfahrt</h2>
+                <h2 class="h2orange" tabindex="0">Anfahrt</h2>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.0934061660478!2d9.098571915043792!3d48.74191247927616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799dc42026cc05f%3A0xeb88e48af65defde!2sHochschule%20der%20Medien!5e0!3m2!1sde!2sde!4v1619895440574!5m2!1sde!2sde"
-                    width="100%"  style="border:0;"
+                    width="100%" style="border:0;"
                     title="Google maps Karte zu unserem Café in der Nobelstraße 10, 70569 Stuttgart" allowfullscreen=""
                     loading="lazy"></iframe>
             </div>
             <div class="col-sm-4 ">
-                 <h2 class="h2orange" tabindex="0">Anschrift</h2>
+                <h2 class="h2orange" tabindex="0">Anschrift</h2>
                 <div class="navbarColor p-4 whiteOnGrey">
-                     <p ><b>Adresse:</b> Nobelstraße 10, 70569 Stuttgart</p>
-                     <p ><b>Telefon: </b><a href="tel:+415737263043" class="anschrift">+4915737263043</a></p>
-                     <p > <b>Mail: </b><a href="mailto:ld038@hdm-stuttgart.de"
+                    <p><b>Adresse:</b> Nobelstraße 10, 70569 Stuttgart</p>
+                    <p><b>Telefon: </b><a href="tel:+415737263043" class="anschrift">+4915737263043</a></p>
+                    <p> <b>Mail: </b><a href="mailto:ld038@hdm-stuttgart.de"
                             class="anschrift">ld038@hdm-stuttgart.de</a></p>
                 </div>
             </div>
@@ -242,29 +252,23 @@
 
 <footer class="py-3 my-4 navbar-expand-sm  mb-0 navbarColor col-sm-12">
     <div class="row col-sm-12 border-bottom d-flex flex-wrap justify-content-between align-items-center pb-3 mb-3">
-        <div class="col-sm-2"></div>
-        <ul class="nav col-sm-8 justify-content-sm-center">
-        <li class="navbar-nav"><a href="../index.html" class="nav-link px-2 " tabindex="0">Home</a></li>
-        <li class="navbar-nav"><a aria-current="page" href="./kontakt.html" class="nav-link px-2 "
-                tabindex="0">Kontakt</a></li>
-        <li class="navbar-nav"><a href="./datenschutz.html" class="nav-link px-2 " tabindex="0">Datenschutz</a>
-        </li>
-        <li class="navbar-nav"><a href="./impressum.html" class="nav-link px-2 " tabindex="0">Impressum</a>
-        </li>
-    </ul>
-    <ul class="nav col-sm-2 justify-content-sm-center p-0 mb-0">
-        <li><a class="text-muted" href="https://de-de.facebook.com/" tabindex="0">
-            <ion-icon name="logo-facebook" class="p-0 m-0"></ion-icon>
-          </a></li>
-        <li><a class="text-muted" href="https://www.instagram.com/" tabindex="0">
-            <ion-icon name="logo-instagram" class="pr-2 pl-2 m-0"></ion-icon>
-          </a></li>
-        <li><a class="text-muted" href="https://twitter.com/explore" tabindex="0">
-            <ion-icon name="logo-twitter" class="pr-0 m-0"></ion-icon>
-          </a></li>
-      </ul>
+        <div class="col-sm-1"></div>
+        <ul class="nav col-sm-10 justify-content-sm-center">
+            <li class="navbar-nav"><a href="../index.html" class="nav-link px-2 " tabindex="0">Home</a></li>
+            <li class="navbar-nav"><a aria-current="page" href="./kontakt.html" class="nav-link px-2 "
+                    tabindex="0">Kontakt</a></li>
+            <li class="navbar-nav"><a href="./datenschutz.html" class="nav-link px-2 " tabindex="0">Datenschutz</a>
+            </li>
+            <li class="navbar-nav"><a href="./impressum.html" class="nav-link px-2 " tabindex="0">Impressum</a>
+            </li>
+        </ul>
+        <ul class="nav col-sm-1 justify-content-sm-between p-sm-0 mb-sm-0">
+            <li><a class="text-muted icon" href="https://de-de.facebook.com/" tabindex="0"><img src="../images/icons/facebook.svg" width="30px" alt="unser Facbook"></a></li>
+            <li><a class="text-muted icon" href="https://www.instagram.com/" tabindex="0"><img src="../images/icons/instagram.svg" width="30px" alt="unser Instagram"></a></li>
+            <li><a class="text-muted icon" href="https://twitter.com/" tabindex="0"><img src="../images/icons/twitter.svg" width="30px" alt="unser Twitter"></a></li>
+          </ul>
     </div>
-     <p class="text-light text-center "><img src="../images/Logo.png" alt="Logo Rakete" width="128px"></p>
+    <p class="text-light text-center "><img src="../images/Logo.png" alt="Logo Rakete" width="128px"></p>
 
 </footer>
 
